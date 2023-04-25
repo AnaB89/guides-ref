@@ -1,0 +1,25 @@
+#  containers
+
+
+## Property Summary
+
+| Type                                                  | Name                    | Summary                                                                                                           |
+| ----------------------------------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [RuntimeContainer](./RuntimeContainer.md) | [[name]](containers.md#[name])                   | Get an element of the form by its name..                                    |
+
+## Properties Details
+
+### [name]
+
+Get an element of the form by its name.
+
+**Returns**\
+[RuntimeContainer](./RuntimeContainer.md) 
+
+
+**Sample**
+
+```javascript
+containers.name.addStyleClasses("class1");
+```
+
