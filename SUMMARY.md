@@ -1,6 +1,6 @@
 # Table of contents
 
-* [GUIDES](guides/README.md)
+* [GUIDES](guides/README_guides.md)
   * [Platform Overview](guides/README_overview.md)
   * [Get Servoy](guides/get-servoy.md)
   * [Get Started](guides/get-started.md)
