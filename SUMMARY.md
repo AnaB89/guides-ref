@@ -76,7 +76,7 @@
   * [Contribute](guides/contribute.md)
 
 * [REFERENCE DOCUMENTATION](README.md)
-  * [Legacy Api](<README (1).md>)
+  <! -- * [Legacy Api](<README (1).md>) -->
   * [SERVOY CORE](README_servoyCore.md)
     * [Object Model](servoy-core/object-model/README.md)
       * [Database Server](servoy-core/object-model/database-server/README.md)
