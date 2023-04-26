@@ -34,7 +34,7 @@ The text displayed on a button can be modified by setting its [`text`](http://lo
 
 Buttons, like many components, can display tooltip messages when a user hovers their cursor.  Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
 
-<figure><img src="../../../../.gitbook/assets/exampleButton - tooltipText.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../images/exampleButton - tooltipText.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Remember that text can also be dynamic, data-driven[^1] or localized[^2]. For more options, you can open edit the text property in the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).&#x20;
@@ -44,7 +44,7 @@ Remember that text can also be dynamic, data-driven[^1] or localized[^2]. For mo
 
 Many times, a button will be decorated with an image or font icon. To add an image to your button, edit the [`imageStyleClass`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#imagestyleclass) property and choose the image style class of the font icon you wish to use. For example, enter a value of `fa fa-user-plus` to get a nice "Add User" icon.
 
-<figure><img src="../../../../.gitbook/assets/exampleButton - imageStyleClass.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../images/exampleButton - imageStyleClass.PNG" alt=""><figcaption></figcaption></figure>
 
 For more information, please see the [Font Icon](../../styling-and-themes/font-icons.md) section of the giude on [Styling and Themes](../../styling-and-themes/).
 
@@ -52,13 +52,13 @@ For more information, please see the [Font Icon](../../styling-and-themes/font-i
 
 Like all components, a Button has a button can be styled using themes, variants and raw CSS. To apply any available style class, simply enter one or more space-delimited values for the `styleClass` property.
 
-<img src="../../../../.gitbook/assets/image.png" alt="" data-size="original">For example, `styleClass="btn btn-default btn-primary"`
+<img src="../../../../images/image.png" alt="" data-size="original">For example, `styleClass="btn btn-default btn-primary"`
 
 #### Button Variants
 
 If you are using Variants[^3], then you can easily drag and drop variations of your button onto your form.
 
-<figure><img src="../../../../.gitbook/assets/exampleButton - Variant.gif" alt=""><figcaption><p>Button Variant being dropped on a form</p></figcaption></figure>
+<figure><img src="../../../../images/exampleButton - Variant.gif" alt=""><figcaption><p>Button Variant being dropped on a form</p></figcaption></figure>
 
 ## Handling Events
 
@@ -66,7 +66,7 @@ Like most components, Buttons have events, which allow you to execute some logic
 
 To Handle the event, double-click the value for the `onAction` property in the [Properties Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/component-properties-editor). You will see the [Method Selection Wizard](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/method-selection-wizard). You'll have the option select an existing Method or create a new Method. The method will be called when the button's `onAction` event is fired and the [Event](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/dev-api/application/jsevent) object will be passed to it.
 
-<figure><img src="../../../../.gitbook/assets/exampleButton - onAction (1).gif" alt=""><figcaption><p>Create a method t handle the onAction event</p></figcaption></figure>
+<figure><img src="../../../../images/exampleButton - onAction (1).gif" alt=""><figcaption><p>Create a method t handle the onAction event</p></figcaption></figure>
 
 ```javascript
 /**
