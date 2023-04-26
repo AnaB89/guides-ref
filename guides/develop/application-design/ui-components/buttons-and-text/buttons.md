@@ -28,16 +28,16 @@ See the reference docs for [Button](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w
 
 ### Setting the Text
 
-The text displayed on a button can be modified by setting its [`text`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#text) property.  Most often, this will just be plain text, such as "Submit" or "Cancel". In this case, just enter the value into the editor or directly on the component by double-clicking it. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
+The text displayed on a button can be modified by setting its [`text`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#text) property. Most often, this will just be plain text, such as "Submit" or "Cancel". In this case, just enter the value into the editor or directly on the component by double-clicking it. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
 
 ### Setting a Tooltip message
 
-Buttons, like many components, can display tooltip messages when a user hovers their cursor.  Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
+Buttons, like many components, can display tooltip messages when a user hovers their cursor. Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
 
 <figure><img src="../../../../images/exampleButton - tooltipText.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Remember that text can also be dynamic, data-driven[^1] or localized[^2]. For more options, you can open edit the text property in the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).&#x20;
+Remember that text can also be dynamic, data-driven[^1] or localized[^2]. For more options, you can open edit the text property in the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
 {% endhint %}
 
 ### Setting an Image / Font-Icon
@@ -133,7 +133,10 @@ The following articles are recommended for additional reading:
 * [Styling and Themes](../../styling-and-themes/)
 * [Scripting the UI](../../../programming-guide/scripting-the-ui/)
 
+1. Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
 
 [^1]: Anywhere text is displayed, it can be substituted and merged with the data in context. For more information read about the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor)
-[^2]: Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
+
+[^2]: Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on Multi-Language Support
+
 [^3]: [Variants](../../styling-and-themes/component-variants.md) are pre-styled variations of components. You can create variants using theme properties and CSS and they will be available to quickly add to your forms. For more information, see the guid on [Styling and Themes](../../styling-and-themes/).

@@ -1,7 +1,7 @@
 # Table of contents
 
-* [GUIDES](guides/README_guides.md)
-  * [Platform Overview](guides/README_overview.md)
+* [GUIDES](README.md)
+  * [Platform Overview](guides/README\_overview.md)
   * [Get Servoy](guides/get-servoy.md)
   * [Get Started](guides/get-started.md)
   * [Develop](guides/develop/README.md)
@@ -74,10 +74,8 @@
   * [Deploy](guides/deploy.md)
   * [Extend](guides/extend.md)
   * [Contribute](guides/contribute.md)
-
-* [REFERENCE DOCUMENTATION](README.md)
-  <! -- * [Legacy Api](<README (1).md>) -->
-  * [SERVOY CORE](README_servoyCore.md)
+* [REFERENCE DOCUMENTATION](<README (1).md>)
+  * [SERVOY CORE](README\_servoyCore.md)
     * [Object Model](servoy-core/object-model/README.md)
       * [Database Server](servoy-core/object-model/database-server/README.md)
         * [Table](servoy-core/object-model/database-server/table/README.md)
@@ -317,7 +315,7 @@
       * [Package Manager](servoy-core/page-3/package-manager.md)
     * [Application Server](servoy-core/application-server.md)
     * [Servoy Cloud](servoy-core/servoy-cloud.md)
-  * [EXTENSIONS](README_servoyExtensions.md)
+  * [EXTENSIONS](README\_servoyExtensions.md)
     * [UI Components](extensions/ui-components/README.md)
       * [Buttons and Text](extensions/ui-components/buttons-and-text/README.md)
         * [Badge](extensions/ui-components/buttons-and-text/badges.md)

@@ -8,7 +8,7 @@ In this step of the tutorial you will build an edit Form for product; learn how 
 
 The Servoy sample solution, cloudSampleSolution is the starting point for this tutorial. You will be walked through how the solution has been built creating new user interfaces, new features, learning the basic Servoy techniques. Make sure your environment is properly setup to start this journey. You need the Servoy sample database and the Servoy Sample solution to be your active solution.
 
-![Initial Setup](images/2020-01-17\_1412\_1.png)
+![Initial Setup](images/2020-01-17\_1412.png)
 
 ### Create Form
 

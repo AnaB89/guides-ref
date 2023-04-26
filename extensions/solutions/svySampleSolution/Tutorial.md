@@ -14,7 +14,7 @@ In this step of the tutorial, you will become familiar with some of the Servoy b
 
 The Servoy sample solution, cloudSampleSolution is the starting point for this tutorial. You will be walked through how the solution has been built creating new user interfaces, new features, learning the basic Servoy techniques. Make sure your environment is properly setup to start this journey. You need the Servoy sample database and the Servoy Sample solution to be your active solution.
 
-![Initial Setup](images/2020-01-17\_1412\_1.png)
+![Initial Setup](images/2020-01-17\_1412.png)
 
 ### Create Form
 
@@ -22,8 +22,7 @@ You will now create the product catalog as your first grid Form. To create a new
 
 :information\_source: _A Servoy **Form** is the object end-users can interact with in your application. You can compose your user interface using 1 or more Forms; you can nest Forms into each other and interchange them dynamically as the user operates with your application._
 
-**Form Name**\
-
+**Form Name**\\
 
 When creating a Form you need to enter an unique Form name. You can choose any form name that makes sense to you; however is suggested to use same naming proposed by this tutorial for convenience. Type "productsTableView" into the Form name.
 
