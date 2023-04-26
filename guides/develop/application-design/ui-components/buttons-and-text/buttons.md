@@ -133,7 +133,7 @@ The following articles are recommended for additional reading:
 * [Styling and Themes](../../styling-and-themes/)
 * [Scripting the UI](../../../programming-guide/scripting-the-ui/)
 
-1. Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
+
 
 [^1]: Anywhere text is displayed, it can be substituted and merged with the data in context. For more information read about the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor)
 
