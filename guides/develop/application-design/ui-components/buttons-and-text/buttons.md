@@ -12,7 +12,7 @@ This guide will show how to use buttons in your applications. See how easy it is
 
 In the [Form Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/form-editor), drag the Button component from the Pallet onto the form.
 
-<figure><img src="../../../../images/assets/exampleButton - Add Button (1).gif" alt=""><figcaption><p>Add Button</p></figcaption></figure>
+<figure><img src="../../../../images/exampleButton - Add Button (1).gif" alt=""><figcaption><p>Add Button</p></figcaption></figure>
 
 {% hint style="info" %}
 If the component does not appear in the pallet, it means you do not have the Bootstrap Components package installed. Click "Get more components" at the top of the pallet to open the [Servoy Package Manager](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/package-manager) and install it.
