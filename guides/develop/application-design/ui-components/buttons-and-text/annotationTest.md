@@ -133,7 +133,7 @@ The following articles are recommended for additional reading:
 * [Styling and Themes](../../styling-and-themes/)
 * [Scripting the UI](../../../programming-guide/scripting-the-ui/)
 
-1. Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
+
 
 [^desgin-time]: design-time annotation test
 
