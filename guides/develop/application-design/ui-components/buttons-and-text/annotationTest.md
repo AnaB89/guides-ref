@@ -38,10 +38,6 @@ Buttons, like many components, can display tooltip messages when a user hovers t
 
 {% hint style="info" %}
 Remember that text can also be dynamic, data-driven[^1] or localized[^2]. For more options, you can open edit the text property in the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
-
-[^1]: Anywhere text is displayed, it can be substituted and merged with the data in context. For more information read about the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor)
-
-[^2]: Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
 {% endhint %}
 
 ### Setting an Image / Font-Icon
@@ -61,7 +57,6 @@ Like all components, a Button has a button can be styled using themes, variants 
 #### Button Variants
 
 If you are using Variants[^3], then you can easily drag and drop variations of your button onto your form.
-[^3]: [Variants](../../styling-and-themes/component-variants.md) are pre-styled variations of components. You can create variants using theme properties and CSS and they will be available to quickly add to your forms. For more information, see the guid on [Styling and Themes](../../styling-and-themes/).
 
 <figure><img src="../../../../images/exampleButton - Variant.gif" alt=""><figcaption><p>Button Variant being dropped on a form</p></figcaption></figure>
 
@@ -138,5 +133,8 @@ The following articles are recommended for additional reading:
 * [Styling and Themes](../../styling-and-themes/)
 * [Scripting the UI](../../../programming-guide/scripting-the-ui/)
 
+[^1]: Anywhere text is displayed, it can be substituted and merged with the data in context. For more information read about the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor)
 
+[^2]: Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
 
+[^3]: [Variants](../../styling-and-themes/component-variants.md) are pre-styled variations of components. You can create variants using theme properties and CSS and they will be available to quickly add to your forms. For more information, see the guid on [Styling and Themes](../../styling-and-themes/).
