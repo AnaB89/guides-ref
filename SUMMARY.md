@@ -19,6 +19,7 @@
     * [UI Components](guides/develop/application-design/ui-components/README.md)
       * [Buttons and Text](guides/develop/application-design/ui-components/buttons-and-text/README.md)
         * [Buttons](guides/develop/application-design/ui-components/buttons-and-text/buttons.md)
+        * [annotationTest](guides/develop/application-design/ui-components/buttons-and-text/annotationTest.md)
       * [Form Containers](guides/develop/application-design/ui-components/form-containers.md)
       * [Input Controls](guides/develop/application-design/ui-components/input-controls/README.md)
         * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar.md)
