@@ -20,7 +20,7 @@ If the component does not appear in the pallet, it means you do not have the Boo
 
 ## Modifying a Button at Design-Time
 
-Buttons, like all components, have properties which can be modified at design-time[^1] to set the appearance and behavior of the component. Select the button in the [Form Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/form-editor) to see a list of properties in the [Component Properties Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/component-properties-editor). Below are some common properties and how to set them at design-time.
+Buttons, like all components, have properties which can be modified at design-time[^desgin-time] to set the appearance and behavior of the component. Select the button in the [Form Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/form-editor) to see a list of properties in the [Component Properties Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/component-properties-editor). Below are some common properties and how to set them at design-time.
 
 {% hint style="info" %}
 See the reference docs for [Button](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button) for a complete list of its [properties](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#button-properties).
@@ -135,7 +135,7 @@ The following articles are recommended for additional reading:
 
 1. Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
 
-[^1]: design-time annotation test
+[^desgin-time]: design-time annotation test
 
 [^2]: Anywhere text is displayed, it can be substituted and merged with the data in context. For more information read about the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor)
 
