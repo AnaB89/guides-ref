@@ -8,7 +8,7 @@ It includes the functionality of Servoy's dialogs plugin or the mod\_dialog from
 
 Here is an example dialog created with svyCustomDialogs:
 
-![Dialog example](../../../../extensions/modules/svyUtils/svyCustomDialogs/images/svyCustomDialogs\_1.png)
+![Dialog example](../../../../.gitbook/assets/svyCustomDialogs\_1.png)
 
 A dialog created by the scope consists of a simple two column layout, with labels in one column and fields in the other. A component without a label will span over both columns.
 
@@ -43,7 +43,7 @@ application.output('New password repeat is ' + result[2]);
 
 The resulting dialog looks like this:
 
-![Dialog example](../../../../extensions/modules/svyUtils/svyCustomDialogs/images/svyCustomDialogs\_2.png)
+![Dialog example](../../../../.gitbook/assets/svyCustomDialogs\_2.png)
 
 This is the code used to create the complex dialog example from above:
 

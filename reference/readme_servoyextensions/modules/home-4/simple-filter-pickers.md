@@ -16,7 +16,7 @@ Pick a range of dates between, before or after the selected date/s; it returns r
 * \[beforeDate]
 * \[afterDate]
 
-![Date Range](../../../../extensions/modules/svyPopupFilter/screenshots/filter-date.png)
+![Date Range](../../../../.gitbook/assets/filter-date.png)
 
 #### Integer or Number Range
 
@@ -26,25 +26,25 @@ Pick a range of Number between, smaller or greater than the selected value/s; it
 * \[maxValue]
 * \[minValue]
 
-![Number Range](../../../../extensions/modules/svyPopupFilter/screenshots/filter-number.png)
+![Number Range](../../../../.gitbook/assets/filter-number.png)
 
 #### Tokens
 
 Pick a list of free-text tokens; the entered tokens are returned as an array of String values,
 
-![Tokens](../../../../extensions/modules/svyPopupFilter/screenshots/filter-token.png)
+![Tokens](../../../../.gitbook/assets/filter-token.png)
 
 #### Multi Select
 
 Pick a list of multiple options; the selected values are returned as an array. The Multi Select picker is based on the [svyLookup](../home-2/) module.
 
-![Multi Select](../../../../extensions/modules/svyPopupFilter/screenshots/filter-lookup.png)
+![Multi Select](../../../../.gitbook/assets/filter-lookup.png)
 
 #### Check
 
 Pick an option between "Yes" and "No"; the selected value is returned as 1 or 0.
 
-![Check](../../../../extensions/modules/svyPopupFilter/screenshots/filter-radio.png)
+![Check](../../../../.gitbook/assets/filter-radio.png)
 
 ### Quick Start
 

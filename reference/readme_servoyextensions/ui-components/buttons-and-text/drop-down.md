@@ -4,11 +4,11 @@ The Drop Down component shows a drop down menu (one level) on either a label, a 
 
 Label example:
 
-![Label](<../../../../.gitbook/assets/image\_01 (1).png>)
+![Label](<../../../../.gitbook/assets/image\_01 (1) (1).png>)
 
 Button example:
 
-![Button](<../../../../.gitbook/assets/image\_02 (1).png>)
+![Button](<../../../../.gitbook/assets/image\_02 (1) (1).png>)
 
 Split Button example:
 

@@ -51,7 +51,7 @@ As you can see, a [DocumentEditor](smart-doc-editor-utils.md#documenteditor) obj
 
 The list of available field tags is shown in a type-ahead selector whenever the `#` key is pressed. The result could look something like this:
 
-![Basic Example](../../../../extensions/modules/svyUtils/images/TagLibs.JPG)
+![Basic Example](../../../../.gitbook/assets/TagLibs.JPG)
 
 #### Customize Tag Display Value
 
@@ -68,7 +68,7 @@ editor.tagBuilder(datasources.db.example_data.orders)
 
 The result could look something like this:
 
-![Tag Display Value](../../../../extensions/modules/svyUtils/images/svyDocEditorTagLibsDisplayValue.JPG)
+![Tag Display Value](../../../../.gitbook/assets/svyDocEditorTagLibsDisplayValue.JPG)
 
 #### Showing Related Data
 
@@ -81,7 +81,7 @@ editor.tagBuilder(datasources.db.example_data.orders)
 
 The result could look something like this:
 
-![Related Data](../../../../extensions/modules/svyUtils/images/svyDocEditorTagLibsRelated.JPG)
+![Related Data](../../../../.gitbook/assets/svyDocEditorTagLibsRelated.JPG)
 
 #### Formatting Data
 
@@ -120,7 +120,7 @@ tagBuilder
 
 The result could look something like this:
 
-![Repeat Tags](../../../../extensions/modules/svyUtils/images/TagLibs\_Repeater.JPG)
+![Repeat Tags](../../../../.gitbook/assets/TagLibs\_Repeater.JPG)
 
 You can see that a `$startRepeater` tag was automatically generated for the `quantity` field. This is ideal, because we know that each order can have **many** order detail lines. But also notice that no repeater tags were created for the `productname` field. This is because the (3rd) `repeats` parameter was explicitly set to `false`, as we know that `order_details_to_products` is a **1:1** relation.
 
@@ -146,9 +146,9 @@ Here, the instance method [DocumentEditor](../../../../extensions/modules/svyUti
 
 The result could look something like this:
 
-| Document with tags                                                                    | Merged content                                                                       |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| ![Repeat Tags](../../../../extensions/modules/svyUtils/images/doc\_merge\_before.JPG) | ![Repeat Tags](../../../../extensions/modules/svyUtils/images/doc\_merge\_after.JPG) |
+| Document with tags                                                 | Merged content                                                    |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| ![Repeat Tags](../../../../.gitbook/assets/doc\_merge\_before.JPG) | ![Repeat Tags](../../../../.gitbook/assets/doc\_merge\_after.JPG) |
 
 As you can see the `#` field tags were replaced with the actual record data from the `orders` table. And the [related data](smart-doc-editor-utils.md#related-data) from the `order_details` and `products` tables were also merged. The `$` repeater tags were applied to the 3 records in the related `orders_to_order_details` foundset. (You may also notice that the table header was intuitively skipped.)
 
@@ -257,7 +257,7 @@ Converting rich HTML documents to PDF is no small task and Servoy delivers this 
 
 You can obtain a FREE key from the [Servoy Cloud Control Center](https://admin.servoy-cloud.eu/). From the navigation choose "Add-Ons", and under "Document Printing", click "Generate Key". Your secret key will be displayed. Copy it to your clipboard.
 
-![Repeat Tags](../../../../extensions/modules/svyUtils/images/API\_Key\_gen.JPG)
+![Repeat Tags](../../../../.gitbook/assets/API\_Key\_gen.JPG)
 
 #### Register your key
 

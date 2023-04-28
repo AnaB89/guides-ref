@@ -26,9 +26,9 @@ Include the module svyNavigationUX as module of your solution. Navigation templa
 * In your newly created navigation form, set the first form to be viewed as the containedForm of the _sidenav_ element.
 * \[Optional] Customize the _navbar_ element adding your own brandlogo.
 
-![Extend Nav Template](../../../../extensions/modules/svyNavigation/screenshots/extend-form.png)
+![Extend Nav Template](../../../../.gitbook/assets/extend-form.png)
 
-![Single Page Navigation](../../../../extensions/modules/svyNavigation/screenshots/sidenav.png)
+![Single Page Navigation](../../../../.gitbook/assets/sidenav.png)
 
 ## Init the Menu
 

@@ -2,7 +2,7 @@
 
 Inputgroups are input fields with text- or button add-ons grouped into one element such as this one:
 
-![Inputgroup](../../../../extensions/ui-components/input-controls/inputgroup/images/image01.png)
+![Inputgroup](<../../../../.gitbook/assets/image01 (1).png>)
 
 ## Table of contents
 
@@ -47,11 +47,11 @@ AddOnButton is a component specific javascript type with the following propertie
 
 Here is an example with two buttons:
 
-![Buttons](../../../../extensions/ui-components/input-controls/inputgroup/images/image02.png)
+![Buttons](../../../../.gitbook/assets/image02.png)
 
 In developer these buttons are defined as shown in the following screenshot:
 
-![](../../../../extensions/ui-components/input-controls/inputgroup/images/image03.png)
+![](../../../../.gitbook/assets/image03.png)
 
 ### AddOn type
 

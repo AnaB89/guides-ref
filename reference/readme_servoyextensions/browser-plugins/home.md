@@ -12,7 +12,7 @@ The UI is blocked by an overlay that prevents the user from clicking anywhere in
 
 Here is a screenshot of a blocked UI with message and the "Tree bounce" spinner.
 
-![Screenshot](../../../extensions/browser-plugins/svyBlockUI/images/image\_01.png)
+![Screenshot](<../../../.gitbook/assets/image\_01 (4).png>)
 
 ### svyBlockUI in NGClient2
 

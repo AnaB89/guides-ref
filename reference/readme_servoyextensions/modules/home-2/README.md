@@ -25,7 +25,7 @@ This [**quick screencast**](https://www.screencast.com/t/fxtRsOho) shows the exa
 
 ### Example
 
-![Example Look-Up](../../../../extensions/modules/svyLookup/screenshots/lookup.png)
+![Example Look-Up](../../../../.gitbook/assets/lookup.png)
 
 **Key Features**
 
@@ -113,7 +113,7 @@ For multi-selection simply set the MultiSelect flag to true
 
 ```
 
-![Example Look-Up Multi-Select](../../../../extensions/modules/svyLookup/screenshots/lookup-multi.png)
+![Example Look-Up Multi-Select](../../../../.gitbook/assets/lookup-multi.png)
 
 #### Lookup Types
 

@@ -13,9 +13,9 @@ You may decide to leave empty the **header** or **footer** section, not necessar
 **IMPORTANT!** The parent container of the flexbox layout MUST have a known height, the flexbox layout is not useful at all if the height of it's top container is 'auto' (which is an unknown value). In case the parent container of the flexbox layout is the Servoy form itself, add a CSS styleClass to the form which will let the form use 100% of the available height.\
 **IMPORTANT!** if the form is nested within another form via a tab/tabless panel, the panel MUST have a known height as well, so that the inner form can use 100% of the panel height.
 
-![Flexbobx Layout IMG](../../../../extensions/layout/12grid/images/2017-10-19\_1044.png)
+![Flexbobx Layout IMG](../../../../.gitbook/assets/2017-10-19\_1044.png)
 
-![Flexbox Layout Outline](../../../../extensions/layout/12grid/images/2017-10-19\_1029.png)
+![Flexbox Layout Outline](../../../../.gitbook/assets/2017-10-19\_1029.png)
 
 ### Flexbox Layout and Table Components
 
@@ -29,9 +29,9 @@ If instead you prefer to use the design height of the Table component, wrap the 
 
 You can nest multiple FlexLayout within the **content** section to sub-divide the available height of the content section.
 
-![FlexBox Layout Nested IMG](../../../../extensions/layout/12grid/images/2017-10-19\_1821.png)
+![FlexBox Layout Nested IMG](../../../../.gitbook/assets/2017-10-19\_1821.png)
 
-![FlexBox Layout Nested Outline](../../../../extensions/layout/12grid/images/2017-10-19\_1823.png)
+![FlexBox Layout Nested Outline](../../../../.gitbook/assets/2017-10-19\_1823.png)
 
 In the sample above the available height of the first flexbox layout content is divided in 2 blocks of 50% height using the custom styleClass _half-size_.
 

@@ -4,7 +4,7 @@ The Progress Bar component shows a progress bar that can be used to indicate the
 
 Example:
 
-![Progress Bar](../../../../extensions/ui-components/visualization/progressbar/images/image\_01.png)
+![Progress Bar](../../../../.gitbook/assets/image\_01.png)
 
 ## Table of contents
 

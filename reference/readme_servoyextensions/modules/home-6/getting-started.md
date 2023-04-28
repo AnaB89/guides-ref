@@ -19,7 +19,7 @@ The \*.servoy files available for download and import into Servoy Developer come
    * **Servoy Extra Components** (for solutions **svySecurityExample** AND **svySecurityConsole** - you will need to activate each individual solution and add the web package for each solution)
    * **ChartJS** (for solution **svySecurityConsole**)
 
-![Adding missing packages in Servoy 8.1x](../../../../extensions/modules/svySecurity/images/AddingMissingComponentsInServoy81x.png)
+![Adding missing packages in Servoy 8.1x](../../../../.gitbook/assets/AddingMissingComponentsInServoy81x.png)
 
 #### Importing the example solution in Servoy 8.2x
 
@@ -37,7 +37,7 @@ The solution **svySecurityConsole** requires a standard Servoy security user mem
 2. Create a new user, specify a password and save it.
 3. Add the new user to the built-in **Administrators** group by selecting the **Administrators** group and checking the checkbox of the created user and then save again the changes.
 
-![Adding administrator user in Servoy Developer](../../../../extensions/modules/svySecurity/images/AddingAdministratorUserInServoyDeveloper.png)
+![Adding administrator user in Servoy Developer](../../../../.gitbook/assets/AddingAdministratorUserInServoyDeveloper.png)
 
 #### Credentials for accessing the Security Example solution
 
@@ -59,4 +59,4 @@ Tenant: **AcmeSol**
 
 The **svySecurity** uses the classic/standard Servoy security groups as **permissions**. This allows for standard design-time security configuration in Servoy Developer. For this purpose, for every svySecurity permission defined and used in an application, a corresponding standard Servoy security group must be created. These groups/permissions should be created at design-time using the "User and group security" editor in Servoy Developer. The names of the groups must match exactly the permission names. An example of this and its usage can be seen in the **svySecurityExample** solution.
 
-![Security groups and permissions - 1](../../../../extensions/modules/svySecurity/images/SecurityGroupsAndPermissions-1.png) ![Security groups and permissions - 2](../../../../extensions/modules/svySecurity/images/SecurityGroupsAndPermissions-2.png)
+![Security groups and permissions - 1](../../../../.gitbook/assets/SecurityGroupsAndPermissions-1.png) ![Security groups and permissions - 2](../../../../.gitbook/assets/SecurityGroupsAndPermissions-2.png)

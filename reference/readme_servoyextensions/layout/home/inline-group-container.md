@@ -2,7 +2,7 @@
 
 The Inline Group Container allow you to use at best the available width dividing the available width in 3 horizontal section, **left**, **right** and **content**; the left and the right section will use all and only the necessary width depending on their content (if any); the **content** section instead will use all the remaining width.
 
-![Inline Group Container IMG](../../../../extensions/layout/12grid/images/2017-10-19\_1853.png)
+![Inline Group Container IMG](../../../../.gitbook/assets/2017-10-19\_1853.png)
 
 ### Getting Started
 
@@ -12,7 +12,7 @@ You may decide to leave empty the **right** or **left** section, not necessarely
 
 **IMPORTANT!** The parent container of the inline group container MUST have a known width, the inline group container is not useful at all if the width of it's top container is 'auto' (which is an unknown value).
 
-![Inline Group Container Outline](../../../../extensions/layout/12grid/images/2017-10-19\_1852.png)
+![Inline Group Container Outline](../../../../.gitbook/assets/2017-10-19\_1852.png)
 
 ### Fixed Left/Right Section Size
 
@@ -20,9 +20,9 @@ You may force the **left** and or **right** section to a fixed width by setting 
 
 Setting a fixed size to a section is particoularly useful when you want to align multiple label and fields using multiple inline group containers.
 
-![Fixed Section width IMG](../../../../extensions/layout/12grid/images/2017-10-19\_1921.png)
+![Fixed Section width IMG](../../../../.gitbook/assets/2017-10-19\_1921.png)
 
-![Fixed Section width Outline](../../../../extensions/layout/12grid/images/2017-10-19\_1922.png)
+![Fixed Section width Outline](../../../../.gitbook/assets/2017-10-19\_1922.png)
 
 You can override the default sizes of the pre-defined values by adding the following CSS rules to the CSS styleSheet of your Solution.
 
@@ -55,9 +55,9 @@ You can of course decide also to add your own CSS class to set a specific width 
 
 You can enable a responsive behavior for the **left** section using the attribute **data-responsive** of the inline-group-container. You can select a breakpoint value (sm, md, lg) for which the left section will move into a new line when the screen size is smaller thane the breakpoint value; see the [Bootstrap CSS Media Query](https://getbootstrap.com/docs/3.0/css/#grid-media-queries) for the breakpoint values.
 
-![Responsive Section IMG](../../../../extensions/layout/12grid/images/2017-10-19\_1903.png)
+![Responsive Section IMG](../../../../.gitbook/assets/2017-10-19\_1903.png)
 
-![Responsive Section Outline](../../../../extensions/layout/12grid/images/2017-10-19\_1901.png)
+![Responsive Section Outline](../../../../.gitbook/assets/2017-10-19\_1901.png)
 
 ### Nesting Inline Group Containers
 

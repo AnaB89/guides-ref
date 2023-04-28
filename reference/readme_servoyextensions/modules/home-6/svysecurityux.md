@@ -36,7 +36,7 @@ You may extend the form and set your own logo and your own background image in t
 * Check User's Password
 * Report login errors
 
-![Login Template](../../../../extensions/modules/svySecurity/images/2019-12-30\_1233.png)
+![Login Template](../../../../.gitbook/assets/2019-12-30\_1233.png)
 
 #### Tenant Template
 
@@ -49,7 +49,7 @@ The tenant template form offers an overview of the logged tenant with the follow
 * Lock/Unlock the tenant
 * Edit tenant's display name
 
-![Tenant Template](../../../../extensions/modules/svySecurity/images/2019-12-30\_1237.png)
+![Tenant Template](../../../../.gitbook/assets/2019-12-30\_1237.png)
 
 #### Roles Template
 
@@ -59,7 +59,7 @@ The Role template allows to administer all Roles of the logged tenant:
 * Remove Roles
 * Assign Permissions to Roles
 
-![Roles Template](../../../../extensions/modules/svySecurity/images/2019-12-30\_1237\_2.png)
+![Roles Template](../../../../.gitbook/assets/2019-12-30\_1237\_2.png)
 
 #### Users Template
 
@@ -69,7 +69,7 @@ The Users template allows to administer all Users of the logged tenant:
 * Remove User
 * Assign Roles to Users
 
-![Users Template](../../../../extensions/modules/svySecurity/images/2019-12-30\_1236.png)
+![Users Template](../../../../.gitbook/assets/2019-12-30\_1236.png)
 
 #### User Template
 
@@ -82,7 +82,7 @@ The User template offers an overview for any User of the logged tenant:
 * Reset password
 * List assigned roles
 
-![User Template](../../../../extensions/modules/svySecurity/images/2019-12-30\_1236\_2.png)
+![User Template](../../../../.gitbook/assets/2019-12-30\_1236\_2.png)
 
 ## Getting Started
 
@@ -97,11 +97,11 @@ Is recommended to use the [Servoy Theme](https://wiki.servoy.com/pages/viewpage.
 * (Optional) change the Servoy logo with your own logo in the newly created form by setting the image media of the _logo_ element (can select any image from the media folder of your solution).
 * (Optional) custom messages for login errors
 
-![Create Login Form](../../../../extensions/modules/svySecurity/images/2019-12-30\_1406.png)
+![Create Login Form](../../../../.gitbook/assets/2019-12-30\_1406.png)
 
-![Set solution's login form](../../../../extensions/modules/svySecurity/images/2019-12-30\_1412.png)
+![Set solution's login form](../../../../.gitbook/assets/2019-12-30\_1412.png)
 
-![Change logo](../../../../extensions/modules/svySecurity/images/2019-12-30\_1414.png)
+![Change logo](../../../../.gitbook/assets/2019-12-30\_1414.png)
 
 You can show custom messages to the user instead of the default login errors by overriding the method _onLoginError_ of your login form
 

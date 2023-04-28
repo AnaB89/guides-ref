@@ -8,13 +8,13 @@ This tutorial introduces you to the essentials of Servoy by walking you through 
 
 In this step of the tutorial, you will become familiar with some of the Servoy basics. You will build a product catalog and learn how to build a form having a feature rich grid, inheriting an existing form.
 
-![Product Catalog](../../../../extensions/solutions/svySampleSolution/images/2020-01-17\_1415.png)
+![Product Catalog](../../../../.gitbook/assets/2020-01-17\_1415.png)
 
 ### Introduction
 
 The Servoy sample solution, cloudSampleSolution is the starting point for this tutorial. You will be walked through how the solution has been built creating new user interfaces, new features, learning the basic Servoy techniques. Make sure your environment is properly setup to start this journey. You need the Servoy sample database and the Servoy Sample solution to be your active solution.
 
-![Initial Setup](../../../../extensions/solutions/svySampleSolution/images/2020-01-17\_1412\_1.png)
+![Initial Setup](../../../../.gitbook/assets/2020-01-17\_1412\_1.png)
 
 ### Create Form
 
@@ -42,7 +42,7 @@ Thirdly, let the Form inherit UI & business logic from the existing base Form _b
 
 _Any Servoy Form can be extended and used at your best convenience; moreover, in the extended Form instance you will be able to modify and augment the base interface and base functionalities; as much as reusability is highly valuable, a high level of flexibility is also important in order to accomplish what a complex application may require._
 
-![Create Form](../../../../extensions/solutions/svySampleSolution/images/2020-01-09\_1721.png)
+![Create Form](../../../../.gitbook/assets/2020-01-09\_1721.png)
 
 Finally click on Finish, you will be prompted to the Servoy Form Editor. The Form Editor is a graphical user interface that allows users to quickly and easily create and modify Servoy Forms without the need for manual coding. In the following steps you will edit the productsTableView Form so you can build your product catalog.
 
@@ -54,7 +54,7 @@ In your productsTableView, editable in the Form Editor, you will see with red do
 
 Click onto the “Title” Element and in the **Property pane** (at the right side), change the value of the property text from 'Title' to 'Products Catalog' typing in it.
 
-![Title Text](../../../../extensions/solutions/svySampleSolution/images/2020-01-09\_1740.png)
+![Title Text](../../../../.gitbook/assets/2020-01-09\_1740.png)
 
 #### Grid's Column
 
@@ -68,7 +68,7 @@ Set the Column bindings in the **Properties pane** (right side). The first Colum
 * Set the headerTitle value; type 'Product'.
 * Specify an unique id; type 'productname'.
 
-![Add Column](../../../../extensions/solutions/svySampleSolution/images/2020-01-09\_1728.png)
+![Add Column](../../../../.gitbook/assets/2020-01-09\_1728.png)
 
 #### Related Column
 
@@ -95,7 +95,7 @@ The Form is now ready to be accessed to visualize the product catalog. Let’s a
 
 In the SolutionExplorer right click the mainNavMenu Form and select **Open in Script Editor** to edit the Form’s script.
 
-![Open Form Scripting](../../../../extensions/solutions/svySampleSolution/images/2020-01-17\_1417.png)
+![Open Form Scripting](../../../../.gitbook/assets/2020-01-17\_1417.png)
 
 The base function _loadMenuItems_ of the _mainNavMenu_ Form returns a list of menu items; edit the function loadMenuItems to include the new Product menu item. You can place the new Product menu item at any position; in this sample is placed as 2nd menu item right after the Home menu entry.
 

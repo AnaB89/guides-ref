@@ -4,25 +4,25 @@ The Center Container allow it's content vertically and horizontally in a Servoy 
 
 You can drop Servoy Web Components and nest other 12Grid containers into it's content section. You can also nest center container within each other.
 
-![Center Container Vertically IMG](../../../../extensions/layout/12grid/images/2017-10-13\_1811.png)
+![Center Container Vertically IMG](../../../../.gitbook/assets/2017-10-13\_1811.png)
 
-![Center Container Vertically Outline](../../../../extensions/layout/12grid/images/2017-10-18\_1207.png)
+![Center Container Vertically Outline](../../../../.gitbook/assets/2017-10-18\_1207.png)
 
 To center the content vertically the parent container must have a known height; if the height of it's parent container is not known the container will center it's content only horizontally.
 
 Note that 12Grid rows and columns usually don't have a known height (unless their height is set in the syleSheet), therefore the center container contained in a 12Grid column will center it's content vertically.
 
-![Center Container IMG](../../../../extensions/layout/12grid/images/2017-10-13\_1814.png)
+![Center Container IMG](../../../../.gitbook/assets/2017-10-13\_1814.png)
 
-![Center Container Outline](../../../../extensions/layout/12grid/images/2017-10-13\_1821.png)
+![Center Container Outline](../../../../.gitbook/assets/2017-10-13\_1821.png)
 
 ### Center multiple elements
 
 You can drop Servoy Web Components and nest other 12Grid containers into it's content section to center multiple elements as a single block. You can also nest multiple center container to center sub-content within the content section; note that as for the 12Grid rows, sub-content of the center container are center only horizontally by default (unless you define a known height or min-height to the sub center container via CSS); this is the case since the content of the top-level center container doesn't have a known height but is 'auto' calculated depending on it's content.
 
-![Multiple Center Content IMG](../../../../extensions/layout/12grid/images/2017-10-18\_1215.png)
+![Multiple Center Content IMG](../../../../.gitbook/assets/2017-10-18\_1215.png)
 
-![Multiple Center Content Outline](../../../../extensions/layout/12grid/images/2017-10-18\_1217.png)
+![Multiple Center Content Outline](../../../../.gitbook/assets/2017-10-18\_1217.png)
 
 ### Width and Height of the center content
 
@@ -34,8 +34,8 @@ Since the content section height and width is _auto_, a container or a web compo
 
 You can set a min-width to the content section (using CSS classes) to stretch it's content to a minimum dimension; inner containers and components having width equal to 100% will at least grow up to the min-width of the content section.
 
-![Center Content Min Width IMG](../../../../extensions/layout/12grid/images/2017-10-18\_1255.png)
+![Center Content Min Width IMG](../../../../.gitbook/assets/2017-10-18\_1255.png)
 
-![Center Content Min Width Outline](../../../../extensions/layout/12grid/images/2017-10-18\_1253.png)
+![Center Content Min Width Outline](../../../../.gitbook/assets/2017-10-18\_1253.png)
 
-![Center Content Min Width Style Class](../../../../extensions/layout/12grid/images/2017-10-18\_1256.png)
+![Center Content Min Width Style Class](../../../../.gitbook/assets/2017-10-18\_1256.png)

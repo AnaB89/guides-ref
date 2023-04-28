@@ -28,7 +28,7 @@ This module provides out-of-the-box poup filters and a toolbar implementation, b
 
 ### Example
 
-![Example Toolbar Filter](../../../../extensions/modules/svyPopupFilter/screenshots/example-toolbar-filter.png)
+![Example Toolbar Filter](../../../../.gitbook/assets/example-toolbar-filter.png)
 
 ## Quick Start
 
@@ -39,7 +39,7 @@ It takes just a few components and few lines of code to configure a robust toolb
 * A clickable element used to show the filters picker when clicked (e.g. a clickable icon)
 * (Optional) a textbox to enhance the toolbar filter with a free search.
 
-![Form Setup](../../../../extensions/modules/svyPopupFilter/screenshots/form-setup.png)
+![Form Setup](../../../../.gitbook/assets/form-setup.png)
 
 #### Grid Setup
 
@@ -53,7 +53,7 @@ The available filters in toolbar depends on the configuration of the columns in 
 
 Note: the column dataprovider must be an existing column in the datasource or in a related datasource. Cannot be a calculation or an aggregation.
 
-![Grid Column Setup](../../../../extensions/modules/svyPopupFilter/screenshots/grid-column-setup.png)
+![Grid Column Setup](../../../../.gitbook/assets/grid-column-setup.png)
 
 #### Init Toolbar Object
 

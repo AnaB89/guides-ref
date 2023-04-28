@@ -2,7 +2,7 @@
 
 The Breadcrumbs components wraps the standard [Bootstrap breadcrumbs](http://getbootstrap.com/components/#breadcrumbs) used to display navigational hierarchy in a simple NG client component. Here is how the component looks like
 
-![Breadcrumbs](../../../../extensions/ui-components/navigation/breadcrumbs/images/image\_01.png)
+![Breadcrumbs](<../../../../.gitbook/assets/image\_01 (1).png>)
 
 ## Table of contents
 

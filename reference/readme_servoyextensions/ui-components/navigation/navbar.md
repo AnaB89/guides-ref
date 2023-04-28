@@ -2,7 +2,7 @@
 
 The Navbar component wraps a bootstrap navbar (see [here](http://getbootstrap.com/components/#navbar) for details) into a component usable directly from within Servoy.
 
-![Navbar](../../../../extensions/ui-components/navigation/navbar/images/image01.png)
+![Navbar](../../../../.gitbook/assets/image01.png)
 
 A Navbar is a simple navigation bar that offers
 
@@ -76,15 +76,15 @@ Simple clickable entry in the navbar.
 
 Example with just the text:
 
-![MenuItem Text](../../../../extensions/ui-components/navigation/navbar/images/image07.png)
+![MenuItem Text](../../../../.gitbook/assets/image07.png)
 
 Example with icon and submenus:
 
-![MenuItem Dropdown](../../../../extensions/ui-components/navigation/navbar/images/image08.png)
+![MenuItem Dropdown](../../../../.gitbook/assets/image08.png)
 
 Example of an opened submenu:
 
-![MenuItem Dropdown opened](../../../../extensions/ui-components/navigation/navbar/images/image06.png)
+![MenuItem Dropdown opened](../../../../.gitbook/assets/image06.png)
 
 For an item of displayType "MENU\_ITEM" the MenuItem properties are used as:
 
@@ -102,7 +102,7 @@ For an item of displayType "MENU\_ITEM" the MenuItem properties are used as:
 
 Plain text shown in the bar:
 
-![Text](../../../../extensions/ui-components/navigation/navbar/images/image05.png)
+![Text](../../../../.gitbook/assets/image05.png)
 
 For an item of displayType "TEXT" the MenuItem properties are used as:
 
@@ -122,7 +122,7 @@ A normal button.
 
 Example with text "Button 1", iconName "glyphicon glyphicon-camera" and styleClass "btn-primary":
 
-![Button](../../../../extensions/ui-components/navigation/navbar/images/image04.png)
+![Button](../../../../.gitbook/assets/image04.png)
 
 For an item of displayType "BUTTON" the MenuItem properties are used as:
 
@@ -143,7 +143,7 @@ An item of type "INPUT" adds a text field to the navbar. The text field can have
 
 Example with iconName and inputButtonText:
 
-![Input](../../../../extensions/ui-components/navigation/navbar/images/image02.png)
+![Input](<../../../../.gitbook/assets/image02 (1).png>)
 
 For an item of displayType "INPUT" the MenuItem properties are used as:
 
@@ -163,7 +163,7 @@ An item of type "INPUT\_GROUP" behaves the same as [INPUT](navbar.md#display-typ
 
 Example with iconName and inputButtonText:
 
-![Inputgroup](../../../../extensions/ui-components/navigation/navbar/images/image03.png)
+![Inputgroup](<../../../../.gitbook/assets/image03 (1).png>)
 
 ### SubMenuItem type
 

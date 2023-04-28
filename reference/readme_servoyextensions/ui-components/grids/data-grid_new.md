@@ -8,7 +8,7 @@ This table component is designed to work with large data, potentially infinite, 
 
 **Note**: since all data is loaded lazily on demand, the table doesn't provide any built in aggregation functionality such as count, sum, max, min etc.
 
-![Grouping Table](../../../../extensions/ui-components/grids/images/2017-09-19\_1326.png)
+![Grouping Table](../../../../.gitbook/assets/2017-09-19\_1326.png)
 
 ## Table of contents
 

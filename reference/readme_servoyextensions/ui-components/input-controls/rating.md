@@ -4,11 +4,11 @@ The rating component is a simple component to capture a value in a certain range
 
 Star example:
 
-![Rating stars](../../../../extensions/ui-components/input-controls/rating/images/image\_01.png)
+![Rating stars](<../../../../.gitbook/assets/image\_01 (3).png>)
 
 Hearts example:
 
-![Rating hearts](../../../../extensions/ui-components/input-controls/rating/images/image\_02.png)
+![Rating hearts](<../../../../.gitbook/assets/image\_02 (1).png>)
 
 ## Table of contents
 

@@ -2,7 +2,7 @@
 
 The Simple Collapsible container allow to toggle the visibility of it's content in a Servoy Responsive Form. It has a toggle section and a content section; the toggle section is always visible and toggles the visibility of the content section when the user clicks on it.
 
-![Simple Collapsible IMG](../../../../extensions/layout/12grid/images/2017-10-13\_1555.png)
+![Simple Collapsible IMG](../../../../.gitbook/assets/2017-10-13\_1555.png)
 
 **Note**: layout containers are not stateful, therefore the Simple Collapsible it will always return to it's design state when the user navigates away from the form or the browser is refreshed.
 
@@ -12,7 +12,7 @@ You can drop Servoy Web Components and nest other 12Grid containers into both to
 
 The Simple Collapsible uses attributes of it's inner _div_ containers to achieve the collapsible behavior. To obtain the collapsible behavior the "data-target" attribute of the "**simple-collapsible-toggle**" must target the correspondant "**simple-collapsible-content**" via CSS selector.
 
-![Simple Collapsible Outline](../../../../extensions/layout/12grid/images/2017-10-13\_1551.png)
+![Simple Collapsible Outline](../../../../.gitbook/assets/2017-10-13\_1551.png)
 
 Is reccomanded to edit the default value and set an unique "**id**" attribute in the "**simple-collapsible-conten**t"; adjust accordingly the "**data-target**" of the "**simple-collapsible-toggle**".
 
@@ -20,11 +20,11 @@ Is reccomanded to edit the default value and set an unique "**id**" attribute in
 
 The collapsible container is expanded by default; you can modify the classes of it's sections to change the default state to collapsed.
 
-![Collapsed](../../../../extensions/layout/12grid/images/2017-10-13\_1711.png)
+![Collapsed](../../../../.gitbook/assets/2017-10-13\_1711.png)
 
 Remove the class "**in**" from the "_simple-collapsible-content_" class property to collapse the content by default and add the class "**collapsed**" in the "_simple-collapsible-toggle_" class property.
 
-![Collapsed Simple Container](../../../../extensions/layout/12grid/images/2017-10-13\_1722.png)
+![Collapsed Simple Container](../../../../.gitbook/assets/2017-10-13\_1722.png)
 
 ### Customize the toggle icon.
 

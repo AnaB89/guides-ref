@@ -56,7 +56,7 @@ options.plugins.outlabels = {
 }
 ```
 
-![props](../../../../../extensions/ui-components/visualization/svyChartJS/images/66974960-82986f00-f062-11e9-8931-a461992e9e93.png)
+![props](../../../../../.gitbook/assets/66974960-82986f00-f062-11e9-8931-a461992e9e93.png)
 
 ## Text Options
 
@@ -80,6 +80,6 @@ options.plugins.outlabels: {
 }
 ```
 
-![label](../../../../../extensions/ui-components/visualization/svyChartJS/images/66974989-98a62f80-f062-11e9-90cc-4bb315923937.png)
+![label](../../../../../.gitbook/assets/66974989-98a62f80-f062-11e9-90cc-4bb315923937.png)
 
 \*Note that this plugin will not work when used along side data labels plugin (Use one or the other)

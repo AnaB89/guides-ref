@@ -6,23 +6,23 @@ This is the bootstrap 12 grid layout package for making responsive forms. It is 
 
 ## [Collapsible Container](collapsible-container.md)
 
-![Collapsible Container IMG](../../../../extensions/layout/12grid/images/2017-10-13\_1802.png)
+![Collapsible Container IMG](../../../../.gitbook/assets/2017-10-13\_1802.png)
 
 ## [Simple Collapsible](simple-collapsible.md)
 
-![Simple Collapsible IMG](../../../../extensions/layout/12grid/images/2017-10-13\_1555.png)
+![Simple Collapsible IMG](../../../../.gitbook/assets/2017-10-13\_1555.png)
 
 ## [Center Container](center-container.md)
 
-![Centered Container IMG](../../../../extensions/layout/12grid/images/2017-10-13\_1814.png)
+![Centered Container IMG](../../../../.gitbook/assets/2017-10-13\_1814.png)
 
 ## [Inline Group Container](inline-group-container.md)
 
-![Inline Group Container IMG](../../../../extensions/layout/12grid/images/2017-10-19\_1853.png)
+![Inline Group Container IMG](../../../../.gitbook/assets/2017-10-19\_1853.png)
 
 ## [Flexbox Layout](flexbox-layout.md)
 
-![Flexbobx Layout IMG](../../../../extensions/layout/12grid/images/2017-10-19\_1044.png)
+![Flexbobx Layout IMG](../../../../.gitbook/assets/2017-10-19\_1044.png)
 
 ## Nesting responsive forms
 

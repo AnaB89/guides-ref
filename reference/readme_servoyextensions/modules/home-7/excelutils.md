@@ -135,7 +135,7 @@ var success = workbook.writeToFile("C:\\Temp\\test.xlsx");
 
 The resulting xlsx file looks like this:
 
-![Excel file](../../../../extensions/modules/svyUtils/svyExcelUtils/images/sample\_xlsx.png)
+![Excel file](../../../../.gitbook/assets/sample\_xlsx.png)
 
 ## Reading excel files
 
@@ -207,4 +207,4 @@ var bytes = workbook.getBytes();
 
 The resulting xlsx file looks like this:
 
-![JSDataSet Excel file](../../../../extensions/modules/svyUtils/svyExcelUtils/images/dataset\_xlsx.png)
+![JSDataSet Excel file](../../../../.gitbook/assets/dataset\_xlsx.png)

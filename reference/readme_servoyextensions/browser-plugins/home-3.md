@@ -36,7 +36,7 @@ Registers the listener on the components which have the "keylistener" attribute 
 
 On the component(s) you want to register the listener, you need to add a **keylistener** attribute. Let's assume we add the **keylistener** attribute with the value **test** to be used as a callback key:
 
-![keylistener attribute](../../../extensions/browser-plugins/svyKeyListener/images/keylistener\_attribute\_example.png)
+![keylistener attribute](../../../.gitbook/assets/keylistener\_attribute\_example.png)
 
 Then, for instance in the onShow method of the form, you need to associate that callback key to a function:
 

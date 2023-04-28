@@ -49,7 +49,7 @@ In this scenario, you will inherit any of the Abstract forms and build the UI yo
 
 For example, you may want to translate the strings used on the date filter. So you would start to create a new form in your solution by inheriting svyDatePopupFilter. You will get something like this in Servoy developer:
 
-![test](../../../../extensions/modules/svyPopupFilter/screenshots/custom-date-popup-filter.png)
+![test](../../../../.gitbook/assets/custom-date-popup-filter.png)
 
 Now you can translate or re-label buttons (as shown in the example), change the appearance or whatever you want to adjust. For more customization options (for example if you want to remove buttons), the form could also be duplicated instead of inherited. In that case, you take over some responsibility for its functionality as well.
 

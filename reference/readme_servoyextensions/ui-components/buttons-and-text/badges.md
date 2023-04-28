@@ -4,7 +4,7 @@ The badges component can be used to easily highlight new or unread items in labe
 
 Label example:
 
-![Label](../../../../.gitbook/assets/image\_01.png)
+![Label](<../../../../.gitbook/assets/image\_01 (2).png>)
 
 Button example:
 

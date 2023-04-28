@@ -6,7 +6,7 @@ description: Guide for using the Calendar component
 
 ## Overview
 
-The Calendar is an [Input Control](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/) component. It presents as a formatted date field and it can show a popup date-picker when clicked. It can also accept keyboard input, like a regular Text Field.
+The Calendar is an [Input Control](./) component. It presents as a formatted date field and it can show a popup date-picker when clicked. It can also accept keyboard input, like a regular Text Field.
 
 Like all Input Control components, the Calendar is data-bound to a single Data Provider. It can be used to update database columns and variables that have a DateTime data type.
 

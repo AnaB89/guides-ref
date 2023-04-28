@@ -12,7 +12,7 @@ The **svySecurity** module is designed to provide a complete security-related fu
 
 The **svySecurity** model is comprised of several classes which are organized in specific relations to implement the common security tasks required by most applications.
 
-![svySecurity model](../../../../extensions/modules/svySecurity/images/svySecurityModel.png)
+![svySecurity model](../../../../.gitbook/assets/svySecurityModel.png)
 
 **Permissions** are application-specific descriptors of what parts of the application or its functionality are subject to security restrictions. The permissions are defined by the application developers at design-time and represent things like "can access Form A" or "can delete data from Table B" or "can perform Action C". The permissions are then used at run-time to change the application UI or behavior depending on the user. For example user A may be able to edit data in a specific field while for user B the same field could be disabled/read-only or even invisible. The same can be applied to any other action or data which a user can perform or access.
 

@@ -2,13 +2,13 @@
 
 In this step of the tutorial you will build an edit Form for product; learn how to build a Form to visualize, enter and edit data. You will then implement navigation between the product’s catalog implemented in the previous tutorials and the new edit Form.
 
-![Product edit](../../../../extensions/solutions/svySampleSolution/images/gif1.gif)
+![Product edit](../../../../.gitbook/assets/gif1.gif)
 
 ### Introduction
 
 The Servoy sample solution, cloudSampleSolution is the starting point for this tutorial. You will be walked through how the solution has been built creating new user interfaces, new features, learning the basic Servoy techniques. Make sure your environment is properly setup to start this journey. You need the Servoy sample database and the Servoy Sample solution to be your active solution.
 
-![Initial Setup](../../../../extensions/solutions/svySampleSolution/images/2020-01-17\_1412\_1.png)
+![Initial Setup](../../../../.gitbook/assets/2020-01-17\_1412\_1.png)
 
 ### Create Form
 
@@ -51,7 +51,7 @@ The chosen fields are now placed in the Form next to a descriptive label. Let’
 * Select the placed fields with their labels and move them from the top. Use the down arrow keys to move them.
 * Make the size of the fields adjust to the Browser's size; select all fields in forms and change the **cssPosition right** value to 50%.
 
-![Adjust positioning](../../../../extensions/solutions/svySampleSolution/images/gif4.gif)
+![Adjust positioning](../../../../.gitbook/assets/gif4.gif)
 
 ### Combobox Fields
 
@@ -62,7 +62,7 @@ The valuelist object is a collection of items having a display value and real va
 * For the categoryid Combobox set the valuelist property; use the _categories_ valuelist.
 * For the supplierid Combobox set the valuelist proeprty; use the _suppliers_ valuelist.
 
-![Combobox fields](../../../../extensions/solutions/svySampleSolution/images/gif5.gif)
+![Combobox fields](../../../../.gitbook/assets/gif5.gif)
 
 ### Format Data
 
@@ -89,7 +89,7 @@ The inherited base form comes with a "breadcrumbs" element used to display the n
 
 Display tags %% can be used on text based properties to display the dataprovider value.
 
-![Open Form Scripting](../../../../extensions/solutions/svySampleSolution/images/gif8.gif)
+![Open Form Scripting](../../../../.gitbook/assets/gif8.gif)
 
 ### Navigation from Grid
 

@@ -16,7 +16,7 @@ This [**quick screencast**](https://www.screencast.com/t/fxtRsOho) shows the exa
 
 ### Example
 
-![Example Look-Up](../../../../../extensions/modules/svyLookup/screenshots/lookup.png)
+![Example Look-Up](../../../../../.gitbook/assets/lookup.png)
 
 ### Example Usage
 
