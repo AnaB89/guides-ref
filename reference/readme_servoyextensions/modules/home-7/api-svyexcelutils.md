@@ -402,7 +402,7 @@ headerStyle.setFillPattern(scopes.svyExcelUtils.FILL_PATTERN.SOLID_FOREGROUND);
 wb.writeToFile("d:\\dataset.xls");
 ```
 
-***
+
 
 ### ExcelWorkbook
 
@@ -522,7 +522,7 @@ Removes the sheet at the given index
 | ----- | -------- |
 | index | `Number` |
 
-***
+
 
 #### excelWorkbook.setSheetNameAt(index, name)
 
@@ -533,7 +533,7 @@ Sets the sheet name
 | index | `Number` |
 | name  | `String` |
 
-***
+
 
 #### excelWorkbook.writeToFile(targetFile) ⇒ `Boolean`
 
@@ -545,13 +545,13 @@ Writes this workbook to the given targetFile
 | ---------- | --------------------------------- |
 | targetFile | `plugins.file.JSFile` \| `String` |
 
-***
+
 
 #### excelWorkbook.wb : `Packages.org.apache.poi.ss.usermodel.Workbook`
 
 The internal workbook object
 
-***
+
 
 #### new ExcelWorkbook(\[templateOrFileType])
 
@@ -615,7 +615,7 @@ cell.setCellFormula("SUM(" + scopes.svyExcelUtils.getCellReferenceFromRange(2, 1
 var success = workbook.writeToFile("d:\\test.xls");
 ```
 
-***
+
 
 ### FoundSetExcelWorkbook ⇐ [`ServoyExcelWorkbook`](api-svyexcelutils.md#new\_ServoyExcelWorkbook\_new)
 
@@ -906,7 +906,7 @@ A FoundSet based Excel workbook
 | \[templateOrFileType] | `String` \| `plugins.file.JSFile` \| `Number` | either file or media URL pointing to an existing Excel to be used as template or one of the FILE\_FORMAT constants when creating empty workbooks |
 | \[sheetNameToUse]     | `String`                                      | when a template is used, this is the name of the sheet to be filled                                                                              |
 
-***
+
 
 ### ALIGNMENT : `enum`
 
@@ -925,7 +925,7 @@ Horizontal alignments used in ExcelCellStyle
 | RIGHT             | `Packages.org.apache.poi.ss.usermodel.HorizontalAlignment` | `Packages.org.apache.poi.ss.usermodel.HorizontalAlignment.RIGHT`            |
 | DISTRIBUTED       | `Packages.org.apache.poi.ss.usermodel.HorizontalAlignment` | `Packages.org.apache.poi.ss.usermodel.HorizontalAlignment.DISTRIBUTED`      |
 
-***
+
 
 ### BORDER : `enum`
 
@@ -950,7 +950,7 @@ Borders used in ExcelCellStyle
 | THICK                  | `Packages.org.apache.poi.ss.usermodel.BorderStyle` | `Packages.org.apache.poi.ss.usermodel.BorderStyle.THICK`               |
 | THIN                   | `Packages.org.apache.poi.ss.usermodel.BorderStyle` | `Packages.org.apache.poi.ss.usermodel.BorderStyle.THIN`                |
 
-***
+
 
 ### CELL\_TYPE
 
@@ -967,7 +967,7 @@ Possible cell types
 | NUMERIC | `Packages.org.apache.poi.ss.usermodel.CellType.NUMERIC` |
 | STRING  | `Packages.org.apache.poi.ss.usermodel.CellType.STRING`  |
 
-***
+
 
 ### FILE\_FORMAT
 
@@ -981,7 +981,7 @@ Possible file formats used instead of templates when creating empty workbooks
 | XLSX  | `2`     | XLSX format, requires additional libraries @see [excelutils.md](excelutils.md "mention") |
 | SXLSX | `4`     | Streaming version of the XLSX format to avoid out of memory errors                       |
 
-***
+
 
 ### FILL\_PATTERN : `enum`
 
@@ -1009,7 +1009,7 @@ Fill patterns used in ExcelCellStyle
 | SQUARES               | `Packages.org.apache.poi.ss.usermodel.FillPatternType` | `Packages.org.apache.poi.ss.usermodel.FillPatternType.SQUARES`             |
 | DIAMONDS              | `Packages.org.apache.poi.ss.usermodel.FillPatternType` | `Packages.org.apache.poi.ss.usermodel.FillPatternType.DIAMONDS`            |
 
-***
+
 
 ### FONT\_UNDERLINE
 
@@ -1025,7 +1025,7 @@ Underline patterns used in ExcelFont
 | SINGLE             | `Packages.org.apache.poi.hssf.usermodel.HSSFFont.U_SINGLE`            |
 | SINGLE\_ACCOUNTING | `Packages.org.apache.poi.hssf.usermodel.HSSFFont.U_SINGLE_ACCOUNTING` |
 
-***
+
 
 ### INDEXED\_COLOR : `enum`
 
@@ -1083,7 +1083,7 @@ Colors from the Excel color palette
 | WHITE                   | `Packages.org.apache.poi.ss.usermodel.IndexedColors` | `Packages.org.apache.poi.ss.usermodel.IndexedColors.WHITE`                 |
 | YELLOW                  | `Packages.org.apache.poi.ss.usermodel.IndexedColors` | `Packages.org.apache.poi.ss.usermodel.IndexedColors.YELLOW`                |
 
-***
+
 
 ### PAPER\_SIZE
 
@@ -1127,7 +1127,7 @@ Possible paper sizes for a PrintSetup
 | TABLOID\_PAPERSIZE               | `Packages.org.apache.poi.ss.usermodel.PrintSetup.TABLOID_PAPERSIZE`             |
 | TEN\_BY\_FOURTEEN\_PAPERSIZE     | `Packages.org.apache.poi.ss.usermodel.PrintSetup.TEN_BY_FOURTEEN_PAPERSIZE`     |
 
-***
+
 
 ### SHEET\_PANE : `enum`
 
@@ -1142,7 +1142,7 @@ Panes of a sheet used in split panes
 | UPPER\_LEFT  | `byte` | `Packages.org.apache.poi.ss.usermodel.Sheet.PANE_UPPER_LEFT`  |
 | UPPER\_RIGHT | `byte` | `Packages.org.apache.poi.ss.usermodel.Sheet.PANE_UPPER_RIGHT` |
 
-***
+
 
 ### VERTICAL\_ALIGNMENT : `enum`
 
@@ -1325,4 +1325,3 @@ Whether it is black and white
 
 The paper size
 
-***

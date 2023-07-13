@@ -121,7 +121,7 @@ Represents a security permission in the system. Mapped internally to a Servoy se
   * [.setDisplayName(\[displayName\])](api-documentation.md#permission.setdisplayname-displayname-permission) ⇒ [`Permission`](api-documentation.md#permission)
   * [new Permission(record)](api-documentation.md#new-permission-record)
 
-***
+
 
 #### permission.addRole(role) ⇒ [`Permission`](api-documentation.md#permission)
 
@@ -199,7 +199,7 @@ Permission objects cannot be created through the API. They are created automatic
 | ------ | ------------------------------ |
 | record | `[ 'JSRecord' ].<permissions>` |
 
-***
+
 
 ### Role
 
@@ -335,7 +335,7 @@ Use [createRole](api-documentation.md#tenant.createrole-name-role) to create rol
 | ------ | ------------------------ |
 | record | `[ 'JSRecord' ].<roles>` |
 
-***
+
 
 ### Session
 
@@ -457,7 +457,7 @@ Session objects cannot be created through the API. They are created automaticall
 | ------ | --------------------------- |
 | record | `[ 'JSRecord' ].<sessions>` |
 
-***
+
 
 ### Tenant
 
@@ -687,7 +687,7 @@ Use [createTenant](api-documentation.md#createtenant-name-tenant) to create tena
 | ------ | -------------------------- | ------------------------------------------------------------------- |
 | record | `[ 'JSRecord' ].<tenants>` | The database record where the tenant account information is stored. |
 
-***
+
 
 ### User
 
@@ -895,7 +895,7 @@ Removes the lock on the user account which is created by [lock](api-documentatio
 | ------ | ------------------------ |
 | record | `[ 'JSRecord' ].<users>` |
 
-***
+
 
 ### changeExternalDBTransactionSupportFlag(mustSupportExternalTransactions)
 
@@ -909,7 +909,7 @@ If the flag is set to false (default) then when saving or deleting security-rela
 | ------------------------------- | --------- | ----------------------------------------------------------- |
 | mustSupportExternalTransactions | `Boolean` | The value for the supportExternalDBTransaction flag to set. |
 
-***
+
 
 ### cloneTenant(tenantToClone, name, \[makeSlave]) ⇒ [`Tenant`](api-documentation.md#tenant)
 
@@ -924,7 +924,7 @@ WARNING: Cannot call this function when logged in as an user.
 | name          | `String`                                | The name of the tenant. Must be unique and no longer than 50 characters.                 |
 | \[makeSlave]  | `Boolean`                               | When true, the cloned tenant will be a slave of the tenant to clone (defaults to false). |
 
-***
+
 
 ### consumeAccessToken(token) ⇒ [`User`](api-documentation.md#user)
 
@@ -938,7 +938,7 @@ Consumes a secure-access token and returns the user associated with the token if
 | ----- | -------- | ------------------------------- |
 | token | `String` | The secure-access token to use. |
 
-***
+
 
 ### createTenant(name) ⇒ [`Tenant`](api-documentation.md#tenant)
 
@@ -950,7 +950,7 @@ Creates and returns a new tenant with the specified name. The names of tenants m
 | ----- | -------- | ------------------------------------------------------------------------ |
 | name  | `String` | The name of the tenant. Must be unique and no longer than 50 characters. |
 
-***
+
 
 ### deleteTenant(tenant) ⇒ `Boolean`
 
@@ -965,7 +965,7 @@ If the deleted tenant is a Master tenant and is a slave of another master tenant
 | ------ | --------------------------------------------------- | ------------------------------------------------------ |
 | tenant | [`Tenant`](api-documentation.md#tenant) \| `String` | The tenant object or the name of the tenant to delete. |
 
-***
+
 
 ### getActiveSessions() ⇒ [`[ 'Array' ].<Session>`](api-documentation.md#session)
 
@@ -975,7 +975,7 @@ Gets all active sessions for the application.
 
 **Note**: If users close the application without [logging out](api-documentation.md#logout) then their sessions will remain active for a period of time.
 
-***
+
 
 ### getPermission(name) ⇒ [`Permission`](api-documentation.md#permission)
 
@@ -987,7 +987,7 @@ Gets a permission by its unique permission name.
 | ----- | -------- | --------------------------- |
 | name  | `String` | The name of the permission. |
 
-***
+
 
 ### getPermissions() ⇒ [`[ 'Array' ].<Permission>`](api-documentation.md#permission)
 
@@ -995,7 +995,7 @@ Gets all permissions available in this application.
 
 **Returns**: [`[ 'Array' ].<Permission>`](api-documentation.md#permission) - An array with all permissions or an empty array if no permissions are defined.
 
-***
+
 
 ### getRole(roleName, \[tenantName]) ⇒ [`Role`](api-documentation.md#role)
 
@@ -1010,7 +1010,7 @@ Gets a role by the specified role name and tenant name. If tenant name is not sp
 | roleName      | `String` | The name of the role to get.                                                                           |
 | \[tenantName] | `String` | If not specified will use the tenant of the current logged in user (if user is not currently logged in |
 
-***
+
 
 ### getSession() ⇒ [`Session`](api-documentation.md#session)
 
@@ -1020,7 +1020,7 @@ Gets the current user session or null if no session initialized (no user is curr
 
 **Note**: Sessions represent authenticated user sessions. They are not initialized until after user login.
 
-***
+
 
 ### getSessionCount() ⇒ `Number`
 
@@ -1028,7 +1028,7 @@ Gets the number of all unique sessions which have ever been initialized in the a
 
 **Returns**: `Number` - The number of all sessions (active and closed).
 
-***
+
 
 ### getTenant(\[name]) ⇒ [`Tenant`](api-documentation.md#tenant)
 
@@ -1049,7 +1049,7 @@ var currentUserTenant = scopes.svySecurity.getTenant();
 var tenant = scopes.svySecurity.getTenant('tenantNameToGet');
 ```
 
-***
+
 
 ### getTenants() ⇒ [`[ 'Array' ].<Tenant>`](api-documentation.md#tenant)
 
@@ -1057,7 +1057,7 @@ Gets all tenants in the system.
 
 **Returns**: [`[ 'Array' ].<Tenant>`](api-documentation.md#tenant) - An array with all tenants or an empty array if no tenants are defined.
 
-***
+
 
 ### getUser(\[userName], \[tenantName]) ⇒ [`User`](api-documentation.md#user)
 
@@ -1072,7 +1072,7 @@ Gets a user by the specified username and tenant name. If username is not specif
 | \[userName]   | `String` | The username of the user to return. Can be null to get the current user.                                             |
 | \[tenantName] | `String` | The name of the tenant associated with the user. Can be null if username is also null when getting the current user. |
 
-***
+
 
 ### getUsers() ⇒ [`[ 'Array' ].<User>`](api-documentation.md#user)
 
@@ -1080,7 +1080,7 @@ Gets all users in the system.
 
 **Returns**: [`[ 'Array' ].<User>`](api-documentation.md#user) - An array with all users or an empty array if no users are defined.
 
-***
+
 
 ### getVersion() ⇒ `String`
 
@@ -1088,7 +1088,7 @@ Gets the version of this module
 
 **Returns**: `String` - the version of the module using the format Major.Minor.Revision
 
-***
+
 
 ### login(user, \[userUid], \[permissionsToApply]) ⇒ `Boolean`
 
@@ -1104,13 +1104,13 @@ Logs in the specified user and initializes a new [Session](api-documentation.md#
 | \[userUid]            | `String` \| `UUID`                   | The uid to log the user in with (defaults to userName)                                                                                           |
 | \[permissionsToApply] | `[ 'Array' ].<(String\|Permission)>` | Optional permissions to assign to the user. Note that these permissions cannot be asked for using User.getPermissions() or User.hasPermission(). |
 
-***
+
 
 ### logout()
 
 Logs the current user out of the application and closes the associated [Session](api-documentation.md#session). This method internally calls security.logout() to end the Servoy client session.
 
-***
+
 
 ### syncPermissions(\[forcePermissionRemoval])
 
@@ -1122,4 +1122,3 @@ NOTE: This action will not delete permissions which have been removed from inter
 | ------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | \[forcePermissionRemoval] | `Boolean` | if true then permissions without a matching Servoy security group will be deleted regardless if they have been granted to any role or not; if false (default) then permissions without a matching Servoy security group will be deleted only if they have not been granted to any role |
 
-***

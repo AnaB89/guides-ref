@@ -129,7 +129,7 @@ A single scope that contains the classes
 
 #### createSimpleSearch
 
-***
+
 
 **Params**
 

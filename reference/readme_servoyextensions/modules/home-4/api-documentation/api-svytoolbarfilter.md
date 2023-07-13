@@ -99,7 +99,7 @@ Use only visible columns of the grid when set to false
   * [.filters](api-svytoolbarfilter.md#listcomponentfilterrenderer.filters-array-.less-than-filter-greater-than) : [`[ 'Array' ].<Filter>`](api-svytoolbarfilter.md#new\_Filter\_new)
   * [new ListComponentFilterRenderer(listComponent, \[foundsetToFilter\])](api-svytoolbarfilter.md#new-listcomponentfilterrenderer-listcomponent-foundsettofilter)
 
-***
+
 
 #### listComponentFilterRenderer.addFilter(titleText, dataProvider, filterType) ⇒ [`Filter`](api-svytoolbarfilter.md#new\_Filter\_new)
 
@@ -109,7 +109,7 @@ Use only visible columns of the grid when set to false
 | dataProvider | `String` |                                      |
 | filterType   | `String` | any of the FILTER\_TYPES enum values |
 
-***
+
 
 #### listComponentFilterRenderer.applyFilters() ⇒ `Boolean`
 
@@ -117,13 +117,13 @@ Applies all filters
 
 **Returns**: `Boolean` - true if records are loaded, false otherwise
 
-***
+
 
 #### listComponentFilterRenderer.clearFilterUI() ⇒ `Boolean`
 
 Clears all filters from the UI and fires the onFilterRemovedEvent
 
-***
+
 
 #### listComponentFilterRenderer.executeSearch(\[searchText])
 
@@ -133,11 +133,11 @@ Executes the search
 | ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | \[searchText] | `String` | optional searchText to search for; if not provided here, call setSearchText() to set the search criteria before performing the search |
 
-***
+
 
 #### listComponentFilterRenderer.getActiveFilters() ⇒ `[ 'Array' ].<scopes.svyPopupFilter.AbstractPopupFilter>`
 
-***
+
 
 #### listComponentFilterRenderer.getDataSource() ⇒ `String`
 
@@ -145,11 +145,11 @@ Returns the datasource to be filtered as the datasource of the form the filter U
 
 This method can be overwritten by subclasses to return for example the datasource of an NG Grid
 
-***
+
 
 #### listComponentFilterRenderer.getDefaultSearch() ⇒ `scopes.svySearch.SimpleSearch`
 
-***
+
 
 #### listComponentFilterRenderer.getElement() ⇒ `RuntimeComponent`
 
@@ -157,7 +157,7 @@ Returns the element used to display the filters
 
 **Overrides**: [`getElement`](api-svytoolbarfilter.md#AbstractToolbarFilterUX+getElement)
 
-***
+
 
 #### listComponentFilterRenderer.getFilter(dataprovider) ⇒ [`Filter`](api-svytoolbarfilter.md#new\_Filter\_new)
 
@@ -167,11 +167,11 @@ Returns the Filter for the given dataprovider
 | ------------ | -------- |
 | dataprovider | `String` |
 
-***
+
 
 #### listComponentFilterRenderer.getFilters() ⇒ [`[ 'Array' ].<Filter>`](api-svytoolbarfilter.md#new\_Filter\_new)
 
-***
+
 
 #### listComponentFilterRenderer.getFoundSet() ⇒ `JSFoundSet`
 
@@ -179,13 +179,13 @@ Returns the foundset to be filtered as the foundset of the form the filter UI Co
 
 This method can be overwritten by subclasses to return for example the foundset of an NG Grid
 
-***
+
 
 #### listComponentFilterRenderer.getQuery() ⇒ `QBSelect`
 
 Applies all filters and returns the query for this toolbar
 
-***
+
 
 #### listComponentFilterRenderer.getSearchProvider(columnOrDataProvider) ⇒ `scopes.svySearch.SearchProvider`
 
@@ -195,19 +195,19 @@ Returns the SearchProvider for the given column or dataprovider
 | -------------------- | ------------------------------------------------------ |
 | columnOrDataProvider | `CustomType.<aggrid-groupingtable.column>` \| `String` |
 
-***
+
 
 #### listComponentFilterRenderer.getSearchText() ⇒ `String`
 
 Returns the search text for the simple search
 
-***
+
 
 #### listComponentFilterRenderer.getSimpleSearch() ⇒ `scopes.svySearch.SimpleSearch`
 
 Returns the SimpleSearch
 
-***
+
 
 #### listComponentFilterRenderer.getToolbarFiltersState() ⇒ `[ 'Array' ].<{id: String, dataprovider: String, operator: String, params: Object, text: String, values: Array}>`
 
@@ -215,13 +215,13 @@ Returns the filters' state of the toolbar
 
 **Returns**: `[ 'Array' ].<{id: String, dataprovider: String, operator: String, params: Object, text: String, values: Array}>` - jsonState
 
-***
+
 
 #### listComponentFilterRenderer.hasFilters() ⇒ `Boolean`
 
 Returns true if the toolbar has any dataprovider it can filter on
 
-***
+
 
 #### listComponentFilterRenderer.onClick(entry, index, dataTarget, event)
 
@@ -234,7 +234,7 @@ Called when the mouse is clicked on a list entry.
 | dataTarget | `string`  |
 | event      | `JSEvent` |
 
-***
+
 
 #### listComponentFilterRenderer.removeFilter(filter)
 
@@ -244,7 +244,7 @@ Removes the given filter
 | ------ | ---------------------------------------------------- |
 | filter | [`Filter`](api-svytoolbarfilter.md#new\_Filter\_new) |
 
-***
+
 
 #### listComponentFilterRenderer.restoreToolbarFiltersState(jsonState)
 
@@ -254,7 +254,7 @@ Restores the filters' state
 | --------- | ----------------------------------------------------------------------------------------------------------------- |
 | jsonState | `[ 'Array' ].<{id: String, dataprovider: String, operator: String, params: Object, text: String, values: Array}>` |
 
-***
+
 
 #### listComponentFilterRenderer.search(\[searchText])
 
@@ -264,7 +264,7 @@ Applies all filters and executes the search
 | ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | \[searchText] | `String` | optional searchText to search for; if not provided here, call setSearchText() to set the search criteria before performing the search |
 
-***
+
 
 #### listComponentFilterRenderer.setAutoApplyFilters(autoApply) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -272,7 +272,7 @@ Applies all filters and executes the search
 | --------- | --------- |
 | autoApply | `Boolean` |
 
-***
+
 
 #### listComponentFilterRenderer.setFilterValue(filter, values, operator)
 
@@ -284,7 +284,7 @@ Sets a filter value for the given filter
 | values   | `Array`                                              |
 | operator | `String`                                             |
 
-***
+
 
 #### listComponentFilterRenderer.setOnFilterAddedCallback(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -296,7 +296,7 @@ The callback method receives the Filter object of the filter added as argument
 | -------- | ---------- |
 | callback | `function` |
 
-***
+
 
 #### listComponentFilterRenderer.setOnFilterApplyCallback(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -307,7 +307,7 @@ The callback method receives an array of values, the operator and the filter as 
 | -------- | ---------- |
 | callback | `function` |
 
-***
+
 
 #### listComponentFilterRenderer.setOnFilterApplyQueryCondition(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -329,7 +329,7 @@ The method called receives these parameters
 | -------- | ---------- |
 | callback | `function` |
 
-***
+
 
 #### listComponentFilterRenderer.setOnFilterCreate(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -340,7 +340,7 @@ That method then can create and return any filter that will then be used for thi
 | -------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
 | callback | `function` | function that receives the Filter object as argument and must return a scopes.svyPopupFilter.AbstractPopupFilter |
 
-***
+
 
 #### listComponentFilterRenderer.setOnFilterRemovedCallback(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -350,7 +350,7 @@ Sets a callback method that is fired whenever a filter is removed
 | -------- | ---------- |
 | callback | `function` |
 
-***
+
 
 #### listComponentFilterRenderer.setOnSearchCommand(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -372,13 +372,13 @@ function onSearch(query, fs) {
 }
 ```
 
-***
+
 
 #### listComponentFilterRenderer.setSearchText() ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
 Sets the search text for the simple search
 
-***
+
 
 #### listComponentFilterRenderer.showPopupFilterPicker(target)
 
@@ -388,15 +388,15 @@ Shows the filter picker popup
 | ------ | ------------------ |
 | target | `RuntimeComponent` |
 
-***
+
 
 #### listComponentFilterRenderer.autoApply : `Boolean`
 
-***
+
 
 #### listComponentFilterRenderer.filters : [`[ 'Array' ].<Filter>`](api-svytoolbarfilter.md#new\_Filter\_new)
 
-***
+
 
 #### new ListComponentFilterRenderer(listComponent, \[foundsetToFilter])
 
@@ -430,7 +430,7 @@ function search() {
 }
 ```
 
-***
+
 
 ### NgGridListComponentFilterRenderer ⇐ [`ListComponentFilterRenderer`](api-svytoolbarfilter.md#listcomponentfilterrenderer-abstracttoolbarfilterux)
 
@@ -472,7 +472,7 @@ function search() {
   * [.autoApply](api-svytoolbarfilter.md#nggridlistcomponentfilterrenderer.autoapply-boolean) : `Boolean`
   * [new NgGridListComponentFilterRenderer(listComponent, tableComponent)](api-svytoolbarfilter.md#new-nggridlistcomponentfilterrenderer-listcomponent-tablecomponent)
 
-***
+
 
 #### ngGridListComponentFilterRenderer.addFilter(titleText, dataProvider, filterType) ⇒ [`Filter`](api-svytoolbarfilter.md#new\_Filter\_new)
 
@@ -482,7 +482,7 @@ function search() {
 | dataProvider | `String` |                                      |
 | filterType   | `String` | any of the FILTER\_TYPES enum values |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.applyFilters() ⇒ `Boolean`
 
@@ -490,13 +490,13 @@ Applies all filters
 
 **Returns**: `Boolean` - true if records are loaded, false otherwise
 
-***
+
 
 #### ngGridListComponentFilterRenderer.clearFilterUI() ⇒ `Boolean`
 
 Clears all filters from the UI and fires the onFilterRemovedEvent
 
-***
+
 
 #### ngGridListComponentFilterRenderer.executeSearch(\[searchText])
 
@@ -506,11 +506,11 @@ Executes the search
 | ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | \[searchText] | `String` | optional searchText to search for; if not provided here, call setSearchText() to set the search criteria before performing the search |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getActiveFilters() ⇒ `[ 'Array' ].<scopes.svyPopupFilter.AbstractPopupFilter>`
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getDataSource() ⇒ `String`
 
@@ -518,17 +518,17 @@ Returns the datasource to be filtered as the datasource of the NG Grid
 
 **Overrides**: [`getDataSource`](api-svytoolbarfilter.md#listcomponentfilterrenderer.getdatasource-string)
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getDefaultSearch() ⇒ `scopes.svySearch.SimpleSearch`
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getElement() ⇒ `RuntimeComponent`
 
 Returns the element used to display the filters
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getFilter(dataprovider) ⇒ [`Filter`](api-svytoolbarfilter.md#new\_Filter\_new)
 
@@ -538,7 +538,7 @@ Returns the Filter for the given dataprovider
 | ------------ | -------- |
 | dataprovider | `String` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getFilters() ⇒ [`[ 'Array' ].<Filter>`](api-svytoolbarfilter.md#new\_Filter\_new)
 
@@ -546,13 +546,13 @@ Returns all filters of this ToolbarFilter
 
 **Overrides**: [`getFilters`](api-svytoolbarfilter.md#listcomponentfilterrenderer.getfilters-array-.less-than-filter-greater-than)
 
-***
+
 
 #### **getFilters\~filters**
 
 Array
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getFoundSet() ⇒ `JSFoundSet`
 
@@ -560,13 +560,13 @@ Returns the foundset to be filtered as the foundset of the NG Grid
 
 **Overrides**: [`getFoundSet`](api-svytoolbarfilter.md#listcomponentfilterrenderer.getfoundset-jsfoundset)
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getQuery() ⇒ `QBSelect`
 
 Applies all filters and returns the query for this toolbar
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getSearchProvider(columnOrDataProvider) ⇒ `scopes.svySearch.SearchProvider`
 
@@ -576,19 +576,19 @@ Returns the SearchProvider for the given column or dataprovider
 | -------------------- | ------------------------------------------------------ |
 | columnOrDataProvider | `CustomType.<aggrid-groupingtable.column>` \| `String` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getSearchText() ⇒ `String`
 
 Returns the search text for the simple search
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getSimpleSearch() ⇒ `scopes.svySearch.SimpleSearch`
 
 Returns the SimpleSearch
 
-***
+
 
 #### ngGridListComponentFilterRenderer.getToolbarFiltersState() ⇒ `[ 'Array' ].<{id: String, dataprovider: String, operator: String, params: Object, text: String, values: Array}>`
 
@@ -596,13 +596,13 @@ Returns the filters' state of the toolbar
 
 **Returns**: `[ 'Array' ].<{id: String, dataprovider: String, operator: String, params: Object, text: String, values: Array}>` - jsonState
 
-***
+
 
 #### ngGridListComponentFilterRenderer.hasFilters() ⇒ `Boolean`
 
 Returns true if the toolbar has any dataprovider it can filter on
 
-***
+
 
 #### ngGridListComponentFilterRenderer.onClick(entry, index, dataTarget, event)
 
@@ -615,7 +615,7 @@ Called when the mouse is clicked on a list entry.
 | dataTarget | `string`  |
 | event      | `JSEvent` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.removeFilter(filter)
 
@@ -625,7 +625,7 @@ Removes the given filter
 | ------ | ---------------------------------------------------- |
 | filter | [`Filter`](api-svytoolbarfilter.md#new\_Filter\_new) |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.restoreToolbarFiltersState(jsonState)
 
@@ -635,7 +635,7 @@ Restores the filters' state
 | --------- | ----------------------------------------------------------------------------------------------------------------- |
 | jsonState | `[ 'Array' ].<{id: String, dataprovider: String, operator: String, params: Object, text: String, values: Array}>` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.search(\[searchText])
 
@@ -645,7 +645,7 @@ Applies all filters and executes the search
 | ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | \[searchText] | `String` | optional searchText to search for; if not provided here, call setSearchText() to set the search criteria before performing the search |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setAutoApplyFilters(autoApply) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -653,7 +653,7 @@ Applies all filters and executes the search
 | --------- | --------- |
 | autoApply | `Boolean` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setFilterValue(filter, values, operator)
 
@@ -665,7 +665,7 @@ Sets a filter value for the given filter
 | values   | `Array`                                              |
 | operator | `String`                                             |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setOnFilterAddedCallback(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -677,7 +677,7 @@ The callback method receives the Filter object of the filter added as argument
 | -------- | ---------- |
 | callback | `function` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setOnFilterApplyCallback(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -688,7 +688,7 @@ The callback method receives an array of values, the operator and the filter as 
 | -------- | ---------- |
 | callback | `function` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setOnFilterApplyQueryCondition(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -710,7 +710,7 @@ The method called receives these parameters
 | -------- | ---------- |
 | callback | `function` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setOnFilterCreate(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -721,7 +721,7 @@ That method then can create and return any filter that will then be used for thi
 | -------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
 | callback | `function` | function that receives the Filter object as argument and must return a scopes.svyPopupFilter.AbstractPopupFilter |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setOnFilterRemovedCallback(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -731,7 +731,7 @@ Sets a callback method that is fired whenever a filter is removed
 | -------- | ---------- |
 | callback | `function` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setOnSearchCommand(callback) ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
@@ -753,13 +753,13 @@ function onSearch(query, fs) {
 }
 ```
 
-***
+
 
 #### ngGridListComponentFilterRenderer.setSearchText() ⇒ [`AbstractToolbarFilterUX`](api-svytoolbarfilter.md#new\_AbstractToolbarFilterUX\_new)
 
 Sets the search text for the simple search
 
-***
+
 
 #### ngGridListComponentFilterRenderer.showPopupFilterPicker(target)
 
@@ -769,11 +769,11 @@ Shows the filter picker popup
 | ------ | ------------------ |
 | target | `RuntimeComponent` |
 
-***
+
 
 #### ngGridListComponentFilterRenderer.autoApply : `Boolean`
 
-***
+
 
 #### new NgGridListComponentFilterRenderer(listComponent, tableComponent)
 
@@ -782,7 +782,7 @@ Shows the filter picker popup
 | listComponent  | `RuntimeWebComponent.<customrenderedcomponents-customlist>` \| `RuntimeWebComponent.<customrenderedcomponents-customlist_abs>` |
 | tableComponent | `RuntimeWebComponent.<aggrid-groupingtable>` \| `RuntimeWebComponent.<aggrid-groupingtable_abs>`                               |
 
-***
+
 
 ### createFilterToolbar(listComponent, tableOrFoundSet) ⇒ [`NgGridListComponentFilterRenderer`](api-svytoolbarfilter.md#nggridlistcomponentfilterrenderer-listcomponentfilterrenderer)
 
@@ -828,7 +828,7 @@ function search() {
 }
 ```
 
-***
+
 
 ### createSimpleFilterToolbar(listComponent, \[foundsetToFilter]) ⇒ [`ListComponentFilterRenderer`](api-svytoolbarfilter.md#listcomponentfilterrenderer-abstracttoolbarfilterux)
 
@@ -874,7 +874,7 @@ function search() {
 }
 ```
 
-***
+
 
 ### getConfigSortPickerAlphabetically() ⇒ `Boolean`
 
@@ -882,7 +882,7 @@ Returns true if the filter picker is sorted alphabetically
 
 **Since**: v1.3.0
 
-***
+
 
 ### setConfigDateDisplayFormat(displayFormat)
 
@@ -892,7 +892,7 @@ Sets global display date format to be used
 | ------------- | -------- |
 | displayFormat | `String` |
 
-***
+
 
 ### setConfigSortPickerAlphabetically(sortAlphabetically)
 
@@ -904,7 +904,7 @@ Sort the the filter picker alphabetically. Default sort is based on column's pos
 | ------------------ | --------- | -------------- |
 | sortAlphabetically | `Boolean` | Default false. |
 
-***
+
 
 ### setConfigUseNonVisibleColumns(useNonVisibleColumns)
 
@@ -916,7 +916,7 @@ Use only visible columns of the grid when set to false
 | -------------------- | --------- | ------------- |
 | useNonVisibleColumns | `Boolean` | Default true. |
 
-***
+
 
 ### setPopupDefaultOperator(formType, operator)
 
@@ -934,7 +934,7 @@ Use only visible columns of the grid when set to false
  scopes.svyToolbarFilter.setPopupDefaultOperator(scopes.svyToolbarFilter.FILTER_TYPES.TOKEN, scopes.svyPopupFilter.OPERATOR.LIKE);
 ```
 
-***
+
 
 ### setPopupRendererForm(formType, form)
 
@@ -943,7 +943,7 @@ Use only visible columns of the grid when set to false
 | formType | `String`                                                              | any of the FILTER\_TYPES |
 | form     | `RuntimeForm.<AbstractPopupFilter>` \| `RuntimeForm.<AbstractLookup>` | the form to set          |
 
-***
+
 
 ### FILTER\_TYPES
 
@@ -955,40 +955,39 @@ Use only visible columns of the grid when set to false
   * [.SELECT](api-svytoolbarfilter.md#filter\_types.select)
   * [.TOKEN](api-svytoolbarfilter.md#filter\_types.token)
 
-***
+
 
 #### FILTER\_TYPES.CHECK
 
 Check filter
 
-***
+
 
 #### FILTER\_TYPES.DATE
 
 Date filter
 
-***
+
 
 #### FILTER\_TYPES.INTEGER
 
 INTEGER filter
 
-***
+
 
 #### FILTER\_TYPES.NUMBER
 
 Number filter
 
-***
+
 
 #### FILTER\_TYPES.SELECT
 
 Select filter
 
-***
+
 
 #### FILTER\_TYPES.TOKEN
 
 Tokens filter
 
-***

@@ -362,7 +362,7 @@ Shows the popupFilter in a Window
 | win         | `JSWindow` | the JSWindow object to show                                                                                                             |
 | \[callback] | `function` | The function that will be called when a selection is made; the callback returns the following arguments: {Array} record, {Array\<String |
 
-***
+
 
 ### SvyDateFilter ⇐ [`AbstractPopupFilter`](api-svypopupfilter.md#abstractpopupfilter)
 
@@ -853,7 +853,7 @@ Shows the popupFilter in a Window
 | win         | `JSWindow` | the JSWindow object to show                                                                                                             |
 | \[callback] | `function` | The function that will be called when a selection is made; the callback returns the following arguments: {Array} record, {Array\<String |
 
-***
+
 
 ### SvySelectFilter ⇐ [`AbstractPopupFilter`](api-svypopupfilter.md#abstractpopupfilter)
 
@@ -1038,7 +1038,7 @@ Shows the popupFilter in a Window
 | dataProvider | `String`                  | will override the lookupDataProvider |
 | lookup       | `scopes.svyLookup.Lookup` |                                      |
 
-***
+
 
 ### SvyTokenFilter ⇐ [`AbstractPopupFilter`](api-svypopupfilter.md#abstractpopupfilter)
 
@@ -1283,4 +1283,3 @@ Gets the version of this module
 
 **Returns**: `String` - the version of the module using the format Major.Minor.Revision
 
-***

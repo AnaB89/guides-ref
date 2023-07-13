@@ -37,7 +37,7 @@ function onHide(event) {
 }
 ```
 
-***
+
 
 ### getVersion() ⇒ `String`
 
@@ -45,7 +45,7 @@ Gets the version of this module
 
 **Returns**: `String` - the version of the module using the format Major.Minor.Revision
 
-***
+
 
 ### removeGlobalSearchListener(listener)
 
@@ -72,7 +72,7 @@ function onHide(event) {
 }
 ```
 
-***
+
 
 ### triggerGlobalSearch(searchText)
 
@@ -80,4 +80,3 @@ function onHide(event) {
 | ---------- | -------- |
 | searchText | `String` |
 
-***

@@ -10,11 +10,11 @@ Welcome to the **Smart Docs Editor** project wiki! The editor is a standard Web 
 
 Like all the standard input controls, the editor can be bound to a _"Data Provider"_ in your project. This means that the document contents will be automatically rendered from, and updated to any persistent data source column or session variable. In short, loading and saving documents is easy!
 
-***
+
 
 ## API reference
 
-***
+
 
 **Properties**
 
@@ -35,7 +35,7 @@ Like all the standard input controls, the editor can be bound to a _"Data Provid
 | **viewType**              | Enum\<DOCUMENT\|WEB>                        | This setting changes how the document will be displayed in the editor. The default is `DOCUMENT`, which shows a standard page layout view. This is ideal for printable docs. One can switch to `WEB` to enable a pure web view, where the editor will take up the entire space of its container. This is ideal for in-app use cases, such as comment/activity streams. |
 | **visible**               | Boolean                                     | Standard property for all components. Toggles the visibility of the component.                                                                                                                                                                                                                                                                                         |
 
-***
+
 
 **Event Summary**
 
@@ -51,7 +51,7 @@ Like all the standard input controls, the editor can be bound to a _"Data Provid
 
 **Event Details**
 
-***
+
 
 ### **onAction**
 

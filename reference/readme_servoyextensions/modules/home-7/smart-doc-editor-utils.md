@@ -12,7 +12,7 @@
 
 [API Reference](smart-doc-editor-utils.md#api-reference)
 
-***
+
 
 ### Getting Started
 
@@ -22,7 +22,7 @@ Install the [Smart Doc Editor](https://github.com/Servoy/smartDocumentEditor/wik
 
 Then install the `svyUtils$documentEditor` module, also via the SPM. (Choose the _"Modules"_ tab.) The module should be added as a dependency to your project, and the API will be available to you. You're ready to begin coding.
 
-***
+
 
 ### Custom Tag Libraries
 
@@ -126,7 +126,7 @@ You can see that a `$startRepeater` tag was automatically generated for the `qua
 
 When the document is [merged](smart-doc-editor-utils.md#documentmerge), all the content between the `$startRepeater` tag and the `$endRepeater` will be repeated for each record in the repeater tag's related [FoundSet](https://wiki.servoy.com/display/DOCS/JSFoundSet).
 
-***
+
 
 ### Document Merge
 
@@ -270,7 +270,7 @@ There are two ways to register your key:
 
 The PDF export service is _**FREE**_ and subject to daily quotas and limitations. It is ideal for testing purposes and low-volume production scenarios. [Upgrade](mailto:sales@servoy.com) to unlimited printing for high-volume production scenarios and a dedicated document server.
 
-***
+
 
 ### API Reference
 
@@ -302,7 +302,7 @@ A top-level scope `svyDocEditor` which contains a simple object-oriented API to 
 
 #### Method Details
 
-***
+
 
 #### getInstance
 
@@ -322,7 +322,7 @@ Gets an instance of document editor for the specified component.
 var editor = scopes.svyDocEditor.getInstance(elements.editor);
 ```
 
-***
+
 
 #### getExporter
 
@@ -338,7 +338,7 @@ Gets an exporter to configure and export documents
 var exporter = scopes.svyDocEditor.getExporter();
 ```
 
-***
+
 
 #### mergeTags
 
@@ -359,7 +359,7 @@ Merges a document template with data, executing repeater tags, replacing field t
 var displayContent = scopes.svyDocEditor.mergeTags(content, record);
 ```
 
-***
+
 
 #### registerAPIKey
 
@@ -381,7 +381,7 @@ function onOpen(){
 }
 ```
 
-***
+
 
 ### DocumentEditor
 
@@ -397,7 +397,7 @@ An simple class to wrap a document editor component instance, exposing basic met
 
 #### Method Details
 
-***
+
 
 #### tagBuilder
 
@@ -419,7 +419,7 @@ var tagBuilder = editor.tagBuilder(datasources.db.example_data.orders);
 
 ####
 
-***
+
 
 #### getContent
 
@@ -447,7 +447,7 @@ var reneredContent = editor.getContent(true);
 var filteredContent = editor.getContent(true, 'myCustomStyle');
 ```
 
-***
+
 
 #### mergeTags
 
@@ -476,7 +476,7 @@ var mergedRenderedContent = editor.mergeTags(record, true);
 var mergedRenderedContent = editor.mergeTags(record, true, 'myCustomStyle');
 ```
 
-***
+
 
 #### TagBuilder
 
@@ -492,7 +492,7 @@ A class used to build [custom tag libraries](smart-doc-editor-utils.md#custom-ta
 
 #### Method Details
 
-***
+
 
 #### addField
 
@@ -521,7 +521,7 @@ builder.addField('orderid')
 .addField('orders_to_customers.companyname', 'Customer.Name',false);
 ```
 
-***
+
 
 #### build
 
@@ -542,7 +542,7 @@ builder
     .build();
 ```
 
-***
+
 
 #### getFields
 
@@ -559,7 +559,7 @@ Returns this builder's field tags as data set, ideally used in a value list
 var fieldTags = builder.getFields();
 ```
 
-***
+
 
 #### Exporter
 
@@ -580,7 +580,7 @@ An object to configure and generate document exports (PDF)
 
 #### Method Details
 
-***
+
 
 #### addHeadTag
 
@@ -603,7 +603,7 @@ scopes.svyDocEditor.getExporter()
     .addHeadTag('<head><!-- another head tag --></head>')
 ```
 
-***
+
 
 #### exportToPDF
 
@@ -627,7 +627,7 @@ plugins.file.writeFile(pdf,bytes);
 plugins.file.openFile(pdf);
 ```
 
-***
+
 
 #### setContent
 
@@ -652,7 +652,7 @@ scopes.svyDocEditor.getExporter()
     .setContent(content);
 ```
 
-***
+
 
 #### setCSS
 
@@ -674,7 +674,7 @@ scopes.svyDocEditor.getExporter()
     .setCSS(css);
 ```
 
-***
+
 
 #### setMargin
 
@@ -699,7 +699,7 @@ scopes.svyDocEditor.getExporter()
     .setMargin(0.5, 0.5, 0.5, 0.5);
 ```
 
-***
+
 
 #### setOrientation
 
@@ -723,7 +723,7 @@ scopes.svyDocEditor.getExporter()
     .setOrientation(scopes.svyDocEditor.ORIENTATION.LANDSCAPE);
 ```
 
-***
+
 
 #### setPageSize
 

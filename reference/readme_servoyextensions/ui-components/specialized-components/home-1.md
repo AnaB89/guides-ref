@@ -1,61 +1,72 @@
-Welcome to **svyPDFViewer**! 
+# Servoy PDF Viewer
+
+Welcome to **svyPDFViewer**!
 
 This wiki provides comprehensive documentation for using the **svyPDFViewer** web-component, which makes viewing PDF documents in Servoy's NGClient easy and intuitive.
 
-# Getting Started
+## Getting Started
 
 It's easy to get started. Simply import the [web package](https://github.com/Servoy/svyPDFViewer/releases/download/v1.1.0/pdfviewer.zip) via Servoy's Web Package Manager.
 
-If you like to see a sample, install the example solution, [**svyPDFViewerExample.servoy**] (https://github.com/Servoy/svyPDFViewer/releases/download/v1.1.0/svyPDFViewerExample.servoy)
+If you like to see a sample, install the example solution, \[**svyPDFViewerExample.servoy**] (https://github.com/Servoy/svyPDFViewer/releases/download/v1.1.0/svyPDFViewerExample.servoy)
 
-## Example Usage
+### Example Usage
 
 Load document using **absolute** URL
+
 ```
 elements.pdfViewer.documentURL = 'http://www.cbu.edu.zm/downloads/pdf-sample.pdf';
 ```
 
-
 Load document using URL which is **relative** to the web application's root context. For example:
-- http://my-host:8080/myApplication/reports/test.pdf - this would be in production server)
-- http://localhost:8080/reports/test.pdf - this would be in developer
+
+* http://my-host:8080/myApplication/reports/test.pdf - this would be in production server)
+* http://localhost:8080/reports/test.pdf - this would be in developer
+
 ```
 elements.pdfViewer.documentURL = 'reports/test.pdf'; 
 ```
 
-# API Documentation
+## API Documentation
 
-## Property Summary
-Type | Name| Description
------------ | ------ | -----------
-String|[**documentURL**](#documenturl)|The URL of the PDF document
-String|[**noCache**](#nocache)|Indicates if caching should be disabled
+### Property Summary
 
-## Method Summary
-Return Type | Method | Description
------------ | ------ | -----------
-void|[**reload**](#reload)|ReLoads the document in the viewer.
-void|[**~~loadDocument~~**](#loaddocument)|(Re)Loads the document in the viewer. Deprecated. Use [documentURL](#documenturl) instead
+| Type   | Name                                     | Description                             |
+| ------ | ---------------------------------------- | --------------------------------------- |
+| String | [**documentURL**](home-1.md#documenturl) | The URL of the PDF document             |
+| String | [**noCache**](home-1.md#nocache)         | Indicates if caching should be disabled |
+
+### Method Summary
+
+| Return Type | Method                                         | Description                                                                                        |
+| ----------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| void        | [**reload**](home-1.md#reload)                 | ReLoads the document in the viewer.                                                                |
+| void        | [~~**loadDocument**~~](home-1.md#loaddocument) | (Re)Loads the document in the viewer. Deprecated. Use [documentURL](home-1.md#documenturl) instead |
+
+### Method Details
+
+#### reload
 
 
-## Method Details
 
-### reload
----
-Reloads the document. Use in combination with [noCache](#nocache). Call this method when document has changed on the server. 
+Reloads the document. Use in combination with [noCache](home-1.md#nocache). Call this method when document has changed on the server.
 
-### ~~loadDocument~~
----
-Deprecated. Use [documentURL](#documenturl) instead
-	
-## Property Details
+#### ~~loadDocument~~
 
-### documentURL
----
-**Type** String
-The URL of the PDF document. Can be absolute or relative.
 
-### noCache
----
-**Type** Boolean
-Indicates if caching should be disabled. Set to true when PDF might change on the server.
+
+Deprecated. Use [documentURL](home-1.md#documenturl) instead
+
+### Property Details
+
+#### documentURL
+
+
+
+**Type** String The URL of the PDF document. Can be absolute or relative.
+
+#### noCache
+
+
+
+**Type** Boolean Indicates if caching should be disabled. Set to true when PDF might change on the server.

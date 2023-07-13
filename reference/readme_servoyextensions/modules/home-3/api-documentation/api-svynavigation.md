@@ -37,7 +37,7 @@ Opens the navigation item. If the item already exists in the stack, then all ite
   * [.stringify()](api-svynavigation.md#navigationitem.stringify)
   * [new NavigationItem(\[formName\], \[text\], \[tooltipText\])](api-svynavigation.md#new-navigationitem-formname-text-tooltiptext)
 
-***
+
 
 #### navigationItem.getCustomData() ⇒ `*`
 
@@ -56,25 +56,25 @@ function onShow() {
 }
 ```
 
-***
+
 
 #### navigationItem.getFormName() ⇒ `String`
 
 Gets the name of the form associated with this navigation item.
 
-***
+
 
 #### navigationItem.getID() ⇒ `String`
 
-***
+
 
 #### navigationItem.getText() ⇒ `String`
 
-***
+
 
 #### navigationItem.getTooltipText() ⇒ `String`
 
-***
+
 
 #### navigationItem.setCustomData(customData) ⇒ [`NavigationItem`](api-svynavigation.md#navigationitem)
 
@@ -90,7 +90,7 @@ item.setCustomData({ filter: { dataprovider: "orderdate", operator: "between", v
 scopes.svyNavigation.open(item);
 ```
 
-***
+
 
 #### navigationItem.setFormName(formName) ⇒ [`NavigationItem`](api-svynavigation.md#navigationitem)
 
@@ -100,7 +100,7 @@ Sets the name of the form associated with this navigation item.
 | -------- | -------- |
 | formName | `String` |
 
-***
+
 
 #### navigationItem.setText(text) ⇒ [`NavigationItem`](api-svynavigation.md#navigationitem)
 
@@ -108,7 +108,7 @@ Sets the name of the form associated with this navigation item.
 | ----- | -------- |
 | text  | `String` |
 
-***
+
 
 #### navigationItem.setTooltipText(tooltipText) ⇒ [`NavigationItem`](api-svynavigation.md#navigationitem)
 
@@ -116,11 +116,11 @@ Sets the name of the form associated with this navigation item.
 | ----------- | -------- |
 | tooltipText | `String` |
 
-***
+
 
 #### navigationItem.stringify()
 
-***
+
 
 #### new NavigationItem(\[formName], \[text], \[tooltipText])
 
@@ -130,7 +130,7 @@ Sets the name of the form associated with this navigation item.
 | \[text]        | `String` |
 | \[tooltipText] | `String` |
 
-***
+
 
 ### NAVIGATION\_EVENT
 
@@ -141,7 +141,7 @@ Sets the name of the form associated with this navigation item.
 | BEFORE\_CLOSE | `before-close` | register for navigation event to listen for this event (@see addNavigationListener) beforeClose event will be fired before navigating allowing a chance to react or cancel                                            |
 | AFTER\_OPEN   | `after-open`   | register for navigation event to listen for this event (@see addNavigationListener) afterOpen event will be fired when a navigation item has been opened; react to the after\_open event to implement your navigation |
 
-***
+
 
 ### NAVIGATION\_SELECTION\_TYPE
 
@@ -157,7 +157,7 @@ Enumeration for the data selection type specified in the open function. The chos
 | SELECT\_RECORD        | `select-record`       | Can be used only when the dataToShow is a JSRecord. Selects the record with the given pk in the foundset even if the record is not loaded in foundset yet. Warning: can be very expensive, as the entire foundset may needs to be loaded. Returns false if the record cannot be found in the entire foundset.                                                                                                                                                                                                                                                                                                                                                   |
 | FORCE\_SELECT\_RECORD | `force-select-record` | Can be used only when the dataToShow is a JSRecord. Selects the record with the given pk in the foundset even if the record is not loaded in foundset yet. Warning: can be very expensive, as the entire foundset may needs to be loaded. Returns false if the record cannot be found in the entire foundset. If the record is not present in the foundset will force the selection by loading all records into the foundset. If there are active foundset or table filters these won't be removed, they will still apply.                                                                                                                                      |
 
-***
+
 
 ### addNavigationListener(listener)
 
@@ -215,7 +215,7 @@ function onOpen(event) {
 }
 ```
 
-***
+
 
 ### createNavigationItem(\[formName], \[text], \[tooltipText]) ⇒ [`NavigationItem`](api-svynavigation.md#navigationitem)
 
@@ -227,11 +227,11 @@ Creates a NavigationItem object to the given formName
 | \[text]        | `String` |
 | \[tooltipText] | `String` |
 
-***
+
 
 ### getCurrentItem() ⇒ [`NavigationItem`](api-svynavigation.md#navigationitem)
 
-***
+
 
 ### getVersion() ⇒ `String`
 
@@ -239,7 +239,7 @@ Gets the version of this module
 
 **Returns**: `String` - the version of the module using the format Major.Minor.Revision
 
-***
+
 
 ### open(itemOrID, \[dataToShow], \[dataSelectionType]) ⇒ `Boolean`
 
@@ -268,7 +268,7 @@ item.setCustomData({ filter: { dataprovider: "orderdate", operator: "between", v
 scopes.svyNavigation.open(item);
 ```
 
-***
+
 
 ### removeNavigationListener(listener) ⇒ `Boolean`
 
@@ -282,4 +282,3 @@ scopes.svyNavigation.open(item);
 scopes.svyNavigation.removeNavigationListener(onOpen);
 ```
 
-***
