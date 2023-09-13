@@ -10,41 +10,41 @@ This guide will show how to use buttons in your applications. See how easy it is
 
 ## Get Started
 
-In the [Form Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/form-editor), drag the Button component from the Pallet onto the form.
+In the [Form Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/form-editor), drag the Button component from the Pallet onto the form.
 
-<figure><img src="../../../../images/exampleButton - Add Button (1).gif" alt=""><figcaption><p>Add Button</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/exampleButton - Add Button (1).gif" alt=""><figcaption><p>Add Button</p></figcaption></figure>
 
 {% hint style="info" %}
-If the component does not appear in the pallet, it means you do not have the Bootstrap Components package installed. Click "Get more components" at the top of the pallet to open the [Servoy Package Manager](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/package-manager) and install it.
+If the component does not appear in the pallet, it means you do not have the Bootstrap Components package installed. Click "Get more components" at the top of the pallet to open the [Servoy Package Manager](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/package-manager) and install it.
 {% endhint %}
 
 ## Modifying a Button at Design-Time
 
-Buttons, like all components, have properties which can be modified at design-time[^desgin-time] to set the appearance and behavior of the component. Select the button in the [Form Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/form-editor) to see a list of properties in the [Component Properties Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/component-properties-editor). Below are some common properties and how to set them at design-time.
+Buttons, like all components, have properties which can be modified at design-time[^1] to set the appearance and behavior of the component. Select the button in the [Form Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/form-editor) to see a list of properties in the [Component Properties Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/component-properties-editor). Below are some common properties and how to set them at design-time.
 
 {% hint style="info" %}
-See the reference docs for [Button](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button) for a complete list of its [properties](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#button-properties).
+See the reference docs for [Button](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button) for a complete list of its [properties](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button#button-properties).
 {% endhint %}
 
 ### Setting the Text
 
-The text displayed on a button can be modified by setting its [`text`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#text) property. Most often, this will just be plain text, such as "Submit" or "Cancel". In this case, just enter the value into the editor or directly on the component by double-clicking it. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
+The text displayed on a button can be modified by setting its [`text`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button#text) property. Most often, this will just be plain text, such as "Submit" or "Cancel". In this case, just enter the value into the editor or directly on the component by double-clicking it. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/text-property-editor).
 
 ### Setting a Tooltip message
 
-Buttons, like many components, can display tooltip messages when a user hovers their cursor. Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
+Buttons, like many components, can display tooltip messages when a user hovers their cursor. Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/text-property-editor).
 
-<figure><img src="../../../../images/exampleButton - tooltipText.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/exampleButton - tooltipText.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Remember that text can also be dynamic, data-driven[^data] or localized[^localized]. For more options, you can open edit the text property in the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor).
+Remember that text can also be dynamic, data-driven or localized[^2]. For more options, you can open edit the text property in the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/text-property-editor).
 {% endhint %}
 
 ### Setting an Image / Font-Icon
 
-Many times, a button will be decorated with an image or font icon. To add an image to your button, edit the [`imageStyleClass`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#imagestyleclass) property and choose the image style class of the font icon you wish to use. For example, enter a value of `fa fa-user-plus` to get a nice "Add User" icon.
+Many times, a button will be decorated with an image or font icon. To add an image to your button, edit the [`imageStyleClass`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button#imagestyleclass) property and choose the image style class of the font icon you wish to use. For example, enter a value of `fa fa-user-plus` to get a nice "Add User" icon.
 
-<figure><img src="../../../../images/exampleButton - imageStyleClass.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/exampleButton - imageStyleClass.PNG" alt=""><figcaption></figcaption></figure>
 
 For more information, please see the [Font Icon](../../styling-and-themes/font-icons.md) section of the giude on [Styling and Themes](../../styling-and-themes/).
 
@@ -52,21 +52,21 @@ For more information, please see the [Font Icon](../../styling-and-themes/font-i
 
 Like all components, a Button has a button can be styled using themes, variants and raw CSS. To apply any available style class, simply enter one or more space-delimited values for the `styleClass` property.
 
-<img src="../../../../images/image.png" alt="" data-size="original">For example, `styleClass="btn btn-default btn-primary"`
+<img src="../../../../../.gitbook/assets/image.png" alt="" data-size="original">For example, `styleClass="btn btn-default btn-primary"`
 
 #### Button Variants
 
-If you are using Variants[^variants], then you can easily drag and drop variations of your button onto your form.
+If you are using Variants, then you can easily drag and drop variations of your button onto your form.
 
-<figure><img src="../../../../images/exampleButton - Variant.gif" alt=""><figcaption><p>Button Variant being dropped on a form</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/exampleButton - Variant.gif" alt=""><figcaption><p>Button Variant being dropped on a form</p></figcaption></figure>
 
 ## Handling Events
 
 Like most components, Buttons have events, which allow you to execute some logic when something happens in the UI. Of course, the most common event for a button is the `onAction` event, which is triggered when the button is clicked or the user hits the `Enter` key while the button has focus.
 
-To Handle the event, double-click the value for the `onAction` property in the [Properties Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/component-properties-editor). You will see the [Method Selection Wizard](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/method-selection-wizard). You'll have the option select an existing Method or create a new Method. The method will be called when the button's `onAction` event is fired and the [Event](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/dev-api/application/jsevent) object will be passed to it.
+To Handle the event, double-click the value for the `onAction` property in the [Properties Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/component-properties-editor). You will see the [Method Selection Wizard](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/method-selection-wizard). You'll have the option select an existing Method or create a new Method. The method will be called when the button's `onAction` event is fired and the [Event](broken-reference) object will be passed to it.
 
-<figure><img src="../../../../images/exampleButton - onAction (1).gif" alt=""><figcaption><p>Create a method t handle the onAction event</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/exampleButton - onAction (1).gif" alt=""><figcaption><p>Create a method t handle the onAction event</p></figcaption></figure>
 
 ```javascript
 /**
@@ -80,7 +80,7 @@ function onAction(event) {
 ```
 
 {% hint style="info" %}
-See the [Button reference](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button) for comprehensive list of [all events](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#events-summary)
+See the [Button reference](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button) for comprehensive list of [all events](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button#events-summary)
 {% endhint %}
 
 ## Modifying a Button at Runtime
@@ -113,7 +113,7 @@ Like most components, a Button has API methods which can be called from code. Be
 
 ### Give Keyboard Focus
 
-You can easily give keyboard focus to a button using the [`requestFocus`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#requestfocus) method.
+You can easily give keyboard focus to a button using the [`requestFocus`](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button#requestfocus) method.
 
 ```javascript
 function focusButton(){
@@ -122,23 +122,20 @@ function focusButton(){
 ```
 
 {% hint style="info" %}
-See the [Button Reference Docs](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button) for a complete list of programmable [properties](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#properties-summary) and [methods](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button#methods-summary).
+See the [Button Reference Docs](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button) for a complete list of programmable [properties](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button#properties-summary) and [methods](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button#methods-summary).
 {% endhint %}
 
 ## Related Articles
 
 The following articles are recommended for additional reading:
 
-* [Button Reference Documentation](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/extensions/ui-components/buttons-and-text/button)
+* [Button Reference Documentation](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/buttons-and-text/button)
 * [Styling and Themes](../../styling-and-themes/)
 * [Scripting the UI](../../../programming-guide/scripting-the-ui/)
 
+1. Anywhere text is displayed, it can be substituted and merged with the data in context. For more information read about the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoycore/page-3/object-editors/text-property-editor)
+2. [Variants](../../styling-and-themes/component-variants.md) are pre-styled variations of components. You can create variants using theme properties and CSS and they will be available to quickly add to your forms. For more information, see the guid on [Styling and Themes](../../styling-and-themes/).
 
+[^1]: design-time annotation test
 
-[^desgin-time]: design-time annotation test
-
-[^data]: Anywhere text is displayed, it can be substituted and merged with the data in context. For more information read about the [Text Property Editor](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/servoy-core/page-3/object-editors/text-property-editor)
-
-[^localized]: Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
-
-[^variants]: [Variants](../../styling-and-themes/component-variants.md) are pre-styled variations of components. You can create variants using theme properties and CSS and they will be available to quickly add to your forms. For more information, see the guid on [Styling and Themes](../../styling-and-themes/).
+[^2]: Anywhere you show text, it can be translated and localized to the users language. For more information, read our guide on [Multi-Language Support](../../../multi-language-support.md)
