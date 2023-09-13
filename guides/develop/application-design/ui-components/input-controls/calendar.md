@@ -6,7 +6,7 @@ description: Guide for using the Calendar component
 
 ## Overview
 
-The Calendar is an [Input Control](./) component. It presents as a formatted date field and it can show a popup date-picker when clicked. It can also accept keyboard input, like a regular Text Field.
+The Calendar is an [Input Control](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/) component. It presents as a formatted date field and it can show a popup date-picker when clicked. It can also accept keyboard input, like a regular Text Field.
 
 Like all Input Control components, the Calendar is data-bound to a single Data Provider. It can be used to update database columns and variables that have a DateTime data type.
 
@@ -32,7 +32,7 @@ See the Date Formatting guide for more examples
 
 ### More Properties
 
-The Calendar component has many properties, which can be configured at design-time and changed at runtime from the form's javascript file. A [complete list of properties](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/input-controls/calendar#calendar-properties) is available in the reference documentation for this component.
+The Calendar component has many properties, which can be configured at design-time and changed at runtime from the form's javascript file. A [complete list of properties](http://127.0.0.1:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/input-controls/calendar#calendar-properties) is available in the reference documentation for this component.
 
 ### Events
 
@@ -46,6 +46,6 @@ Format
 
 [Reference Documentation](broken-reference)
 
-[Calendar](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/input-controls/calendar)
+[Calendar](http://127.0.0.1:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/input-controls/calendar)
 
 Working with Dates

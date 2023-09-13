@@ -6,11 +6,10 @@
 
 ## TEST FOLDER
 
-* [ngdesktopui](testfolder/browser-plugins/ngdesktopui/Home.md)
-  * [testinside2](testfolder/browser-plugins/testinside2/HomeTestInside2.md)
-
 ## GUIDES
 
+* [ngdesktopui](guides/home/README.md)
+  * [testinside2](guides/home/hometestinside2.md)
 * [Platform Overview](guides/readme\_overview.md)
 * [Get Servoy](guides/get-servoy.md)
 * [Get Started](guides/get-started.md)

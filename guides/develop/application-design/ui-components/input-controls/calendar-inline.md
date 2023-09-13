@@ -18,6 +18,6 @@ Common use cases include selecting a value for a filter or search parameter.
 
 [Reference Documentation](broken-reference)
 
-[Calendar](http://localhost:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/input-controls/calendar)
+[Calendar](http://127.0.0.1:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/input-controls/calendar)
 
 Working with Dates
