@@ -7,7 +7,7 @@
 ## TEST FOLDER
 
 * [ngdesktopui](testfolder/browser-plugins/ngdesktopui/Home.md)
-* [testinside2](testfolder/browser-plugins/testinside2/HomeTestInside2.md)
+  * [testinside2](testfolder/browser-plugins/testinside2/HomeTestInside2.md)
 
 ## GUIDES
 
