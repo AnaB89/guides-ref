@@ -4,6 +4,11 @@
 * [Testsss](testsss/README.md)
   * [Page 1](testsss/page-1.md)
 
+## TEST FOLDER
+
+* [ngdesktopui](testfolder/browser-plugins/ngdesktopui/Home.md)
+* [testinside2](testfolder/browser-plugins/testinside2/HomeTestInside2.md)
+
 ## GUIDES
 
 * [Platform Overview](guides/readme\_overview.md)
