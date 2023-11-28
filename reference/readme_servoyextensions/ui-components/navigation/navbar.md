@@ -2,7 +2,7 @@
 
 The Navbar component wraps a bootstrap navbar (see [here](http://getbootstrap.com/components/#navbar) for details) into a component usable directly from within Servoy.
 
-![Navbar](../../../../.gitbook/assets/image01.png)
+![Navbar](<../../../../.gitbook/assets/image01 (1).png>)
 
 A Navbar is a simple navigation bar that offers
 

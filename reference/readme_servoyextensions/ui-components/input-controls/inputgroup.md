@@ -2,7 +2,7 @@
 
 Inputgroups are input fields with text- or button add-ons grouped into one element such as this one:
 
-![Inputgroup](<../../../../.gitbook/assets/image01 (1).png>)
+![Inputgroup](../../../../.gitbook/assets/image01.png)
 
 ## Table of contents
 
