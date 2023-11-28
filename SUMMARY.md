@@ -4,8 +4,6 @@
 * [Testsss](testsss/README.md)
   * [Page 1](testsss/page-1.md)
 
-## TEST FOLDER
-
 ## GUIDES
 
 * [ngdesktopui](guides/home/README.md)
