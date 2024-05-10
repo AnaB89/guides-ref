@@ -22,7 +22,7 @@ Creates a lookup object which can be used to show a pop-up form
   * [.showPopUp(callback, target, \[width\], \[height\], \[initialValue\])](api-documentation-v1.0.0.md#lookup.showpopup-callback-target-width-height-initialvalue)
   * [new Lookup(datasource)](api-documentation-v1.0.0.md#new-lookup-datasource)
 
-
+***
 
 #### lookup.addField(dataProvider) ⇒ [`LookupField`](api-documentation-v1.0.0.md#lookupfield)
 
@@ -32,13 +32,13 @@ Adds a field to the lookup object
 | ------------ | -------- |
 | dataProvider | `String` |
 
-
+***
 
 #### lookup.getDataSource() ⇒ `String`
 
 Gets the data source for this Lookup object
 
-
+***
 
 #### lookup.getField(index) ⇒ [`LookupField`](api-documentation-v1.0.0.md#lookupfield)
 
@@ -48,13 +48,13 @@ Gets the field at the specified index
 | ----- | -------- |
 | index | `Number` |
 
-
+***
 
 #### lookup.getFieldCount() ⇒ `Number`
 
 Gets the number of fields in the lookup object
 
-
+***
 
 #### lookup.removeField(index)
 
@@ -64,7 +64,7 @@ Removes a field at the specified index
 | ----- | -------- |
 | index | `Number` |
 
-
+***
 
 #### lookup.showPopUp(callback, target, \[width], \[height], \[initialValue])
 
@@ -80,7 +80,7 @@ Shows the lookup
 | \[height]       | `Number`           | The height of the lookup. Optional. Default is implementation-specifc. |
 | \[initialValue] | `String`           | And initial value to show in the search                                |
 
-
+***
 
 #### new Lookup(datasource)
 
@@ -88,7 +88,7 @@ Shows the lookup
 | ---------- | -------- |
 | datasource | `String` |
 
-
+***
 
 ### LookupField
 
@@ -106,43 +106,43 @@ Shows the lookup
   * [.setvalueListName(vl)](api-documentation-v1.0.0.md#lookupfield.setvaluelistname-vl-lookupfield) ⇒ [`LookupField`](api-documentation-v1.0.0.md#lookupfield)
   * [new LookupField(lookup, dataProvider)](api-documentation-v1.0.0.md#new-lookupfield-lookup-dataprovider)
 
-
+***
 
 #### lookupField.getDataProvider() ⇒ `String`
 
 Gets the data provider for this field
 
-
+***
 
 #### lookupField.getFormat() ⇒ `String`
 
 Gets the display format for this field;
 
-
+***
 
 #### lookupField.getTitleText() ⇒ `String`
 
 Gets the display text for this field
 
-
+***
 
 #### lookupField.getValueListName() ⇒ `String`
 
 Gets the value list name for this field
 
-
+***
 
 #### lookupField.isSearchable() ⇒ `Boolean`
 
 Gets the searchability of this field
 
-
+***
 
 #### lookupField.isVisible() ⇒ `Boolean`
 
 Indicates if this field should be displayed
 
-
+***
 
 #### lookupField.setFormat(f) ⇒ [`LookupField`](api-documentation-v1.0.0.md#lookupfield)
 
@@ -152,7 +152,7 @@ Sets the display format for this field
 | ----- | -------- |
 | f     | `String` |
 
-
+***
 
 #### lookupField.setSearchable(b) ⇒ [`LookupField`](api-documentation-v1.0.0.md#lookupfield)
 
@@ -162,7 +162,7 @@ Indicates if this field is searchable
 | ----- | --------- | --------------------------------------------------- |
 | b     | `Boolean` | True to make searchable. False to make display-only |
 
-
+***
 
 #### lookupField.setTitleText(txt) ⇒ [`LookupField`](api-documentation-v1.0.0.md#lookupfield)
 
@@ -172,7 +172,7 @@ Sets the display text for this field
 | ----- | -------- |
 | txt   | `String` |
 
-
+***
 
 #### lookupField.setVisible(b) ⇒ [`LookupField`](api-documentation-v1.0.0.md#lookupfield)
 
@@ -182,7 +182,7 @@ Sets this field's visibility in the lookup form
 | ----- | --------- |
 | b     | `Boolean` |
 
-
+***
 
 #### lookupField.setvalueListName(vl) ⇒ [`LookupField`](api-documentation-v1.0.0.md#lookupfield)
 
@@ -192,7 +192,7 @@ Sets the valuelist to use to display this field
 | ----- | -------- |
 | vl    | `String` |
 
-
+***
 
 #### new LookupField(lookup, dataProvider)
 
@@ -201,7 +201,7 @@ Sets the valuelist to use to display this field
 | lookup       | [`Lookup`](api-documentation-v1.0.0.md#lookup) |
 | dataProvider |                                                |
 
-
+***
 
 ### createLookup(dataSource) ⇒ [`Lookup`](api-documentation-v1.0.0.md#lookup)
 
@@ -211,7 +211,8 @@ Creates a lookup object which can be used to show a pop-up form
 | ---------- | -------------------------------------- | ------------------------- |
 | dataSource | `String` \| `JSFoundSet` \| `JSRecord` | The data source to lookup |
 
-
+***
 
 #### createLookup\~ds : `String`
 
+***

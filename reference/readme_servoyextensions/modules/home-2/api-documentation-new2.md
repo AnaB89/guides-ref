@@ -53,7 +53,7 @@ NOTE: Valuelist cannot be based on a database relation or a global method. Custo
   * [.showWindow(win, \[callback\], \[initialValue\])](api-documentation-new2.md#lookup.showwindow-win-callback-initialvalue-array.less-than-jsrecord-greater-than-or-array.less-than) ⇒ `Array.<JSRecord>` | `Array.<(String|Date|Number)>`
   * [new Lookup(datasource)](api-documentation-new2.md#new-lookup-datasource)
 
-
+***
 
 #### lookup.addField(dataProvider) ⇒ [`LookupField`](api-documentation-new2.md#new\_LookupField\_new)
 
@@ -76,7 +76,7 @@ lookupObj.addField('unitprice')
 	.setFormat('#,###.00')
 ```
 
-
+***
 
 #### lookup.addParam(param)
 
@@ -105,7 +105,7 @@ function onSelect(records, values, lookup) {
 }
 ```
 
-
+***
 
 #### lookup.addSelectedRecord(record)
 
@@ -115,19 +115,19 @@ Adds the given record to the list of selected records
 | ------ | ---------- |
 | record | `JSRecord` |
 
-
+***
 
 #### lookup.clearParams()
 
 Clear the params
 
-
+***
 
 #### lookup.clearSelectedRecords()
 
 Clears the selection of this Lookup
 
-
+***
 
 #### lookup.createPopUp(callback, \[initialValue]) ⇒ `plugins.window.FormPopup`
 
@@ -138,7 +138,7 @@ Creates and returns a Popup Form to be used to show the lookup
 | callback        | `function` | The function that will be called when a selection is made; the callback returns the following arguments: {Array} record, {Array\<String |
 | \[initialValue] | `String`   | And initial value to show in the search                                                                                                 |
 
-
+***
 
 #### lookup.createWindow(\[x], \[y], \[width], \[height], \[jsWindowType]) ⇒ `JSWindow`
 
@@ -152,13 +152,13 @@ Creates and returns a Popup Form to be used to show the lookup
 | \[height]       | `Number` | The height of the pop-up. Optional. Default is form height.                     |
 | \[jsWindowType] | `Number` | Type of window; should be an option of JSWindow, Default JSWindow.MODAL\_DIALOG |
 
-
+***
 
 #### lookup.getDataSource() ⇒ `String`
 
 Gets the data source for this Lookup object
 
-
+***
 
 #### lookup.getField(index) ⇒ [`LookupField`](api-documentation-new2.md#new\_LookupField\_new)
 
@@ -168,31 +168,31 @@ Gets the field at the specified index
 | ----- | -------- |
 | index | `Number` |
 
-
+***
 
 #### lookup.getFieldCount() ⇒ `Number`
 
 Gets the number of fields in the lookup object
 
-
+***
 
 #### lookup.getFoundSet() ⇒ `JSFoundSet`
 
 Gets the foundset for this Lookup object.
 
-
+***
 
 #### lookup.getLookupDataProvider() ⇒ `String`
 
 Gets the lookup dataprovider
 
-
+***
 
 #### lookup.getLookupForm() ⇒ `[ 'RuntimeForm' ].<AbstractLookup>`
 
 Returns the Lookup form instance used
 
-
+***
 
 #### lookup.getParams() ⇒ `Array`
 
@@ -215,13 +215,13 @@ function onSelect(records, values, lookup) {
 }
 ```
 
-
+***
 
 #### lookup.getSelectedRecords() ⇒ `[ 'Array' ].<JSRecord>`
 
 Returns the selected records for the lookup object Can be used to know which records have been previously selected by the user for this lookup
 
-
+***
 
 #### lookup.getSelectedValues() ⇒ `[ 'Array' ].<JSRecord>`
 
@@ -229,7 +229,7 @@ Returns the selected values based on the lookupDataProvider based on the lookupF
 
 throws an exception if the lookupDataProvider has not been set
 
-
+***
 
 #### lookup.removeField(index)
 
@@ -239,7 +239,7 @@ Removes a field at the specified index
 | ----- | -------- |
 | index | `Number` |
 
-
+***
 
 #### lookup.removeParam(index)
 
@@ -249,7 +249,7 @@ Removes a param at the specified index
 | ----- | -------- |
 | index | `Number` |
 
-
+***
 
 #### lookup.removeSelectedRecord(record)
 
@@ -259,7 +259,7 @@ Removes the given record from the list of selected records
 | ------ | ---------- |
 | record | `JSRecord` |
 
-
+***
 
 #### lookup.setLookupDataProvider(dataProvider)
 
@@ -295,7 +295,7 @@ function onSelect(record, values, lookup){
 }
 ```
 
-
+***
 
 #### lookup.setLookupForm(lookupForm)
 
@@ -318,7 +318,7 @@ lookupObjMulti.setMultiSelect(true);
 lookupObjMulti.setLookupForm(forms.svyLookupNGTableMulti);
 ```
 
-
+***
 
 #### lookup.setMultiSelect(multiSelect) ⇒ [`Lookup`](api-documentation-new2.md#lookup)
 
@@ -328,7 +328,7 @@ Allows this Lookup to multi select records The lookup form used will be changed 
 | ----------- | --------- |
 | multiSelect | `Boolean` |
 
-
+***
 
 #### lookup.setSelectedPks(pks)
 
@@ -338,7 +338,7 @@ Sets the selected records of this Lookup from the given primary keys Can be used
 | ----- | ----------------- |
 | pks   | `[ 'Array' ].<*>` |
 
-
+***
 
 #### lookup.setSelectedRecords(records)
 
@@ -348,7 +348,7 @@ Sets the selected records of this Lookup Can be used to restore the user's selec
 | ------- | ------------------------ |
 | records | `[ 'Array' ].<JSRecord>` |
 
-
+***
 
 #### lookup.setSelectedValues(values)
 
@@ -356,7 +356,7 @@ Sets the selected records of this Lookup Can be used to restore the user's selec
 | ------ | ----------------- |
 | values | `[ 'Array' ].<*>` |
 
-
+***
 
 #### lookup.showModalWindow(\[callback], \[x], \[y], \[width], \[height], \[initialValue]) ⇒ `Array.<JSRecord>` | `Array.<(String|Date|Number)>`
 
@@ -373,7 +373,7 @@ Shows the lookup in a modal Window
 | \[height]       | `Number`   | The height of the lookup. Optional. Default is implementation-specifc.                                                                  |
 | \[initialValue] | `String`   | And initial value to show in the search                                                                                                 |
 
-
+***
 
 #### lookup.showPopUp(callback, target, \[width], \[height], \[initialValue])
 
@@ -387,7 +387,7 @@ Shows the lookup as a Popup Form
 | \[height]       | `Number`           | The height of the lookup. Optional. Default is implementation-specifc.                                                                  |
 | \[initialValue] | `String`           | And initial value to show in the search                                                                                                 |
 
-
+***
 
 #### lookup.showWindow(win, \[callback], \[initialValue]) ⇒ `Array.<JSRecord>` | `Array.<(String|Date|Number)>`
 
@@ -401,7 +401,7 @@ Shows the lookup in a Window
 | \[callback]     | `function` | The function that will be called when a selection is made; the callback returns the following arguments: {Array} record, {Array\<String |
 | \[initialValue] | `String`   | And initial value to show in the search                                                                                                 |
 
-
+***
 
 #### new Lookup(datasource)
 
@@ -409,7 +409,7 @@ Shows the lookup in a Window
 | ---------- | ------------------------ |
 | datasource | `String` \| `JSFoundSet` |
 
-
+***
 
 ### createLookup(dataSource) ⇒ [`Lookup`](api-documentation-new2.md#lookup)
 
@@ -461,7 +461,7 @@ function onSelect(records, values, lookup){
 }
 ```
 
-
+***
 
 ### createQueryLookup(qbSelect, \[dsName], \[overrideData]) ⇒ [`Lookup`](api-documentation-new2.md#lookup)
 
@@ -499,7 +499,7 @@ Creates a read only, in-memory datasource from the given query and creates a Loo
   }
 ```
 
-
+***
 
 ### createValueListLookup(valuelistName, \[titleText]) ⇒ [`Lookup`](api-documentation-new2.md#lookup)
 
@@ -527,3 +527,4 @@ function onSelect(records, values, lookup) {
 }
 ```
 
+***

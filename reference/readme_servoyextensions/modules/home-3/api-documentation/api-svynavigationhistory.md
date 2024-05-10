@@ -44,25 +44,25 @@ Sets the maximum number of items held in the navigation history A maximum number
 
 Goes back one step in the navigation history from the current position
 
-
+***
 
 ### clearHistory()
 
 Clears the history
 
-
+***
 
 ### getHistory() ⇒ `[ 'Array' ].<scopes.svyNavigation.NavigationItem>`
 
 Returns the history of navigation items
 
-
+***
 
 ### getHistoryIndex() ⇒ `Number`
 
 Returns the current index when navigating through the history or -1, when not navigating
 
-
+***
 
 ### getNavigationItemFromHistory(id) ⇒ `scopes.svyNavigation.NavigationItem`
 
@@ -72,25 +72,25 @@ Returns the item with the given ID from the history stack when found and null ot
 | ----- | -------- |
 | id    | `String` |
 
-
+***
 
 ### hasNext() ⇒ `Boolean`
 
 Returns `true` when a historyNext can be performed
 
-
+***
 
 ### hasPrevious() ⇒ `Boolean`
 
 Returns `true` when a historyBack can be performed
 
-
+***
 
 ### next() ⇒ `scopes.svyNavigation.NavigationItem`
 
 Goes forward one step in the navigation history from the current position
 
-
+***
 
 ### removeItemFromHistory(itemToRemove)
 
@@ -98,7 +98,7 @@ Goes forward one step in the navigation history from the current position
 | ------------ | ------------------------------------- |
 | itemToRemove | `scopes.svyNavigation.NavigationItem` |
 
-
+***
 
 ### setMaxHistoryLength(historyLength)
 
@@ -108,3 +108,4 @@ Sets the maximum number of items held in the navigation history A maximum number
 | ------------- | -------- |
 | historyLength | `Number` |
 
+***

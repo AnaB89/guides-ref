@@ -47,13 +47,13 @@ elements.pdfViewer.documentURL = 'reports/test.pdf';
 
 #### reload
 
-
+***
 
 Reloads the document. Use in combination with [noCache](home-1.md#nocache). Call this method when document has changed on the server.
 
 #### ~~loadDocument~~
 
-
+***
 
 Deprecated. Use [documentURL](home-1.md#documenturl) instead
 
@@ -61,12 +61,12 @@ Deprecated. Use [documentURL](home-1.md#documenturl) instead
 
 #### documentURL
 
-
+***
 
 **Type** String The URL of the PDF document. Can be absolute or relative.
 
 #### noCache
 
-
+***
 
 **Type** Boolean Indicates if caching should be disabled. Set to true when PDF might change on the server.

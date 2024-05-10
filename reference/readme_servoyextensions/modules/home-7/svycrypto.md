@@ -27,7 +27,7 @@ scopes.svyCrypto.encrypt(rawValue, options);
 scopes.svyCrypto.decrypt(encryptedString, options);
 ```
 
-
+***
 
 ## svyCrypto
 

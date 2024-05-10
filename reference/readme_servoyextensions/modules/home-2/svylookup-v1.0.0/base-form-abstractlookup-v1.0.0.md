@@ -40,7 +40,7 @@ Shows this form as pop-up, returns selection in callback
 
 Dismisses the popup
 
-
+***
 
 ### newInstance(lookupObj) ⇒ `RuntimeForm.<AbstractLookup>`
 
@@ -48,11 +48,11 @@ Dismisses the popup
 | --------- | ------------------------- |
 | lookupObj | `scopes.svyLookup.Lookup` |
 
-
+***
 
 #### newInstance\~form : `RuntimeForm.<AbstractLookup>`
 
-
+***
 
 ### onCreateInstance(jsForm, lookupObj)
 
@@ -63,19 +63,19 @@ Hook for sub form(s) to implement specific sol model additions
 | jsForm    | `JSForm`                  |
 | lookupObj | `scopes.svyLookup.Lookup` |
 
-
+***
 
 ### onSelect()
 
 Callback when item is selected
 
-
+***
 
 ### search()
 
 Runs the search. Loads records in the foundset.
 
-
+***
 
 ### showPopUp(callback, target, \[width], \[height], \[initialValue])
 
@@ -89,15 +89,16 @@ Shows this form as pop-up, returns selection in callback
 | \[height]       | `Number`           | The height of the pop-up. Optional. Default is form height.   |
 | \[initialValue] | `String`           | Initial value in search. Optional. Default is empty.          |
 
-
+***
 
 ### lookup : `scopes.svyLookup.Lookup`
 
 The lookup object used by this lokup form
 
-
+***
 
 ### searchText : `String`
 
 User input for text searching
 
+***

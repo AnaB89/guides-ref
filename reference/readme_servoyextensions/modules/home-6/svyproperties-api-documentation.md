@@ -104,7 +104,7 @@ Sets the given value to the user property with the given key and type or creates
   * [.setPropertyValue(propertyValue)](svyproperties-api-documentation.md#property.setpropertyvalue-propertyvalue-property) ⇒ [`Property`](svyproperties-api-documentation.md#property)
   * [new Property(record)](svyproperties-api-documentation.md#new-property-record)
 
-
+***
 
 #### property.deleteProperty() ⇒ `Boolean`
 
@@ -114,7 +114,7 @@ Immediately and permanently deletes this property.
 
 **Note**: USE WITH CAUTION! There is no undo for this operation.
 
-
+***
 
 #### property.getDisplayName() ⇒ `String`
 
@@ -122,7 +122,7 @@ Gets the display name for this property.
 
 **Returns**: `String` - The property value of this property. Can be null if a display name is not set.
 
-
+***
 
 #### property.getPropertyUUID() ⇒ `UUID`
 
@@ -130,7 +130,7 @@ Gets the property uuid for this property.
 
 **Returns**: `UUID` - The property uuid of this property.
 
-
+***
 
 #### property.getPropertyValue() ⇒ `String`
 
@@ -138,7 +138,7 @@ Gets the property value for this property.
 
 **Returns**: `String` - The property value of this property. Can be null if a property value is not set.
 
-
+***
 
 #### property.getTenantName() ⇒ `String`
 
@@ -146,7 +146,7 @@ Gets the tenant name for this property.
 
 **Returns**: `String` - The property value of this property. Can be null if a display name is not set.
 
-
+***
 
 #### property.getUserName() ⇒ `String`
 
@@ -154,7 +154,7 @@ Gets the user name for this property.
 
 **Returns**: `String` - The property value of this property. Can be null if a display name is not set.
 
-
+***
 
 #### property.setDisplayName() ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -162,7 +162,7 @@ Sets the property display name for this property.
 
 **Returns**: [`Property`](svyproperties-api-documentation.md#property) - The property uuid of this property.
 
-
+***
 
 #### property.setPropertyValue(propertyValue) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -174,7 +174,7 @@ Sets the property value for this property.
 | ------------- | -------- |
 | propertyValue | `String` |
 
-
+***
 
 #### new Property(record)
 
@@ -182,7 +182,7 @@ Sets the property value for this property.
 | ------ | --------------------------------- |
 | record | `[ 'JSRecord' ].<svy_properties>` |
 
-
+***
 
 ### changeExternalDBTransactionSupportFlag(mustSupportExternalTransactions)
 
@@ -196,7 +196,7 @@ If the flag is set to false (default) then when saving or deleting security-rela
 | ------------------------------- | --------- | ----------------------------------------------------------- |
 | mustSupportExternalTransactions | `Boolean` | The value for the supportExternalDBTransaction flag to set. |
 
-
+***
 
 ### deleteProperty(property) ⇒ `Boolean`
 
@@ -210,7 +210,7 @@ Immediately and permanently deletes the specified property.
 | -------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | property | [`Property`](svyproperties-api-documentation.md#property) \| `UUID` \| `String` | The property object or the UUID (UUID or UUID as String) of the property to delete. |
 
-
+***
 
 ### getGlobalProperty(propertyKey, propertyType) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -224,7 +224,7 @@ Global properties are properties where the tenant and user name is not set
 | propertyKey  | `String` | the identifier for the property                |
 | propertyType | `String` | the type of property (typically an enum value) |
 
-
+***
 
 ### getGlobalPropertyValue(propertyKey, propertyType) ⇒ `String`
 
@@ -238,7 +238,7 @@ Global properties are properties where the tenant and user name is not set
 | propertyKey  | `String` | the identifier for the property                |
 | propertyType | `String` | the type of property (typically an enum value) |
 
-
+***
 
 ### getProperties(propertyKey, \[propertyType], \[tenantName], \[userName]) ⇒ [`[ 'Array' ].<Property>`](svyproperties-api-documentation.md#property)
 
@@ -254,7 +254,7 @@ If userName is not provided, it will not be queried; if a null value is provided
 | \[tenantName]   | `String` | has to match exactly                         |
 | \[userName]     | `String` | has to match exactly                         |
 
-
+***
 
 ### getPropertiesByType(propertyType, \[tenantName], \[userName]) ⇒ [`[ 'Array' ].<Property>`](svyproperties-api-documentation.md#property)
 
@@ -269,7 +269,7 @@ If userName is not provided, it will not be queried; if a null value is provided
 | \[tenantName] | `String` | has to match exactly |
 | \[userName]   | `String` | has to match exactly |
 
-
+***
 
 ### getProperty(propertyKey, propertyType, \[tenantName], \[userName]) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -285,7 +285,7 @@ All parameters given need to match exactly
 | \[tenantName] | `String` | the tenant name for which this property is stored |
 | \[userName]   | `String` | the user name for which this property is stored   |
 
-
+***
 
 ### getTenantProperty(propertyKey, propertyType) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -299,7 +299,7 @@ Tenant wide properties are properties where the user name is not set
 | propertyKey  | `String` | the identifier for the property                |
 | propertyType | `String` | the type of property (typically an enum value) |
 
-
+***
 
 ### getTenantPropertyValue(propertyKey, propertyType) ⇒ `String`
 
@@ -313,7 +313,7 @@ Tenant wide properties are properties where the user name is not set
 | propertyKey  | `String` | the identifier for the property                |
 | propertyType | `String` | the type of property (typically an enum value) |
 
-
+***
 
 ### getUserProperty(propertyKey, propertyType) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -338,7 +338,7 @@ function onShow(firstShow, event) {
 }
 ```
 
-
+***
 
 ### getUserPropertyValue(propertyKey, propertyType) ⇒ `String`
 
@@ -363,7 +363,7 @@ function onShow(firstShow, event) {
 }
 ```
 
-
+***
 
 ### getVersion() ⇒ `String`
 
@@ -371,7 +371,7 @@ Gets the version of this module
 
 **Returns**: `String` - the version of the module using the format Major.Minor.Revision
 
-
+***
 
 ### setGlobalProperty(propertyKey, propertyType, value) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -384,7 +384,7 @@ Global properties are properties where the tenant and user name is not set
 | propertyType | `String` | the type of property (typically an enum value) |
 | value        | `String` | the string value of the property               |
 
-
+***
 
 ### setProperty(propertyKey, propertyType, value, userName, tenantName) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -398,7 +398,7 @@ Sets the given value to the property with the given key and type or creates a ne
 | userName     | `String` | the user name for which this property is stored   |
 | tenantName   | `String` | the tenant name for which this property is stored |
 
-
+***
 
 ### setTenantProperty(propertyKey, propertyType, value) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -411,7 +411,7 @@ Tenant wide properties are properties where the user name is not set
 | propertyType | `String` | the type of property (typically an enum value) |
 | value        | `String` | the string value of the property               |
 
-
+***
 
 ### setUserName(userName, \[tenantName])
 
@@ -435,7 +435,7 @@ function onSolutionOpen(arg, queryParams) {
 }
 ```
 
-
+***
 
 ### setUserProperty(propertyKey, propertyType, value) ⇒ [`Property`](svyproperties-api-documentation.md#property)
 
@@ -457,3 +457,4 @@ function onColumnStateChanged(columnState) {
 }
 ```
 
+***

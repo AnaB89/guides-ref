@@ -45,7 +45,7 @@
   * [.showPopUp(callback, target, \[width\], \[height\])](api-svypopupfilter-v1.md#abstractpopupfilter.showpopup-callback-target-width-height)
   * [.showWindow(win, \[callback\])](api-svypopupfilter-v1.md#abstractpopupfilter.showwindow-win-callback-array-.less-than-string-or-date-or-number-greater-than) ⇒ `[ 'Array' ].<(String|Date|Number)>`
 
-
+***
 
 #### abstractPopupFilter.addParam(param)
 
@@ -171,7 +171,7 @@ Shows the popupFilter in a Window
 | win         | `JSWindow` | the JSWindow object to show                                                                                                             |
 | \[callback] | `function` | The function that will be called when a selection is made; the callback returns the following arguments: {Array} record, {Array\<String |
 
-
+***
 
 ### SvyDateFilter ⇐ [`AbstractPopupFilter`](api-svypopupfilter-v1.md#abstractpopupfilter)
 
@@ -322,7 +322,7 @@ Shows the popupFilter in a Window
 | win         | `JSWindow` | the JSWindow object to show                                                                                                             |
 | \[callback] | `function` | The function that will be called when a selection is made; the callback returns the following arguments: {Array} record, {Array\<String |
 
-
+***
 
 ### SvyNumberFilter ⇐ [`AbstractPopupFilter`](api-svypopupfilter-v1.md#abstractpopupfilter)
 
@@ -473,7 +473,7 @@ Shows the popupFilter in a Window
 | win         | `JSWindow` | the JSWindow object to show                                                                                                             |
 | \[callback] | `function` | The function that will be called when a selection is made; the callback returns the following arguments: {Array} record, {Array\<String |
 
-
+***
 
 ### SvySelectFilter ⇐ [`AbstractPopupFilter`](api-svypopupfilter-v1.md#abstractpopupfilter)
 
@@ -646,7 +646,7 @@ Shows the popupFilter in a Window
 | dataProvider | `String`                  | will override the lookupDataProvider |
 | lookup       | `scopes.svyLookup.Lookup` |                                      |
 
-
+***
 
 ### SvyTokenFilter ⇐ [`AbstractPopupFilter`](api-svypopupfilter-v1.md#abstractpopupfilter)
 
@@ -797,7 +797,7 @@ Shows the popupFilter in a Window
 | win         | `JSWindow` | the JSWindow object to show                                                                                                             |
 | \[callback] | `function` | The function that will be called when a selection is made; the callback returns the following arguments: {Array} record, {Array\<String |
 
-
+***
 
 ### OPERATOR
 
@@ -826,3 +826,4 @@ Shows the popupFilter in a Window
 
 ### createTokenFilter() ⇒ [`SvyTokenFilter`](api-svypopupfilter-v1.md#svytokenfilter-abstractpopupfilter)
 
+***

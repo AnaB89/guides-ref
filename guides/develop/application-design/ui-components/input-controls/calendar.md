@@ -32,7 +32,7 @@ See the Date Formatting guide for more examples
 
 ### More Properties
 
-The Calendar component has many properties, which can be configured at design-time and changed at runtime from the form's javascript file. A [complete list of properties](http://127.0.0.1:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/input-controls/calendar#calendar-properties) is available in the reference documentation for this component.
+The Calendar component has many properties, which can be configured at design-time and changed at runtime from the form's javascript file. A [complete list of properties](broken-reference) is available in the reference documentation for this component.
 
 ### Events
 
@@ -46,6 +46,6 @@ Format
 
 [Reference Documentation](broken-reference)
 
-[Calendar](http://127.0.0.1:5000/s/QDXZ8sPLqo1Z0IswdI3w/reference/readme\_servoyextensions/ui-components/input-controls/calendar)
+[Calendar](broken-reference)
 
 Working with Dates
